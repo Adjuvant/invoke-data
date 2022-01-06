@@ -16,11 +16,11 @@ interface events were collected in the VR app and streamed to the LSL data recor
 from the VR headset and controllers were collected at 200 Hz. The LSL data collection 
 architecture can be seen below.
 
-![LSL data collection 
-architecture](/assets/images/invokeDataStreams.jpg "LSL data collection 
-architecture")
+<img src="/assets/images/invokeDataStreams.jpg" width="461" height="372" alt="LSL data collection 
+architecture">
 
-## References
+
+## References
 
 [1] Christian Kothe, Chadwick Boulay, and Tristan Stenner. Lab streaming layer (LSL).
 San Diego, USA, 2019. url: https://github.com/sccn/labstreaminglayer.
