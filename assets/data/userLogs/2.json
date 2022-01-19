@@ -1,0 +1,6579 @@
+{
+  "Events": [
+    {
+      "index": 0,
+      "dateTime": "2019-08-21T14:10:31.8298161",
+      "logType": "PlayerConnect",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 1,
+      "dateTime": "2019-08-21T14:10:40.0644394",
+      "logType": "DrawLine",
+      "startPosition": {
+        "value": [
+          -0.409282,
+          1.12509465,
+          0.819610953
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -0.34288007,
+          1.11489892,
+          0.8126477
+        ]
+      },
+      "duration": 1.78629434,
+      "length": 0.2161551,
+      "avgVelocity": 0.120802835,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 1,
+      "owner": 2,
+      "hand": null
+    },
+    {
+      "index": 2,
+      "dateTime": "2019-08-21T14:11:23.2224462",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          7.393284,
+          0.0,
+          8.896915
+        ]
+      },
+      "duration": null,
+      "length": 11.4096594,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 3,
+      "dateTime": "2019-08-21T14:11:27.7920303",
+      "logType": "DrawLine",
+      "startPosition": {
+        "value": [
+          0.8198744,
+          2.256743,
+          2.283377
+        ]
+      },
+      "endPosition": {
+        "value": [
+          0.42458418,
+          1.22729969,
+          1.2463634
+        ]
+      },
+      "duration": 11.8512726,
+      "length": 52.56116,
+      "avgVelocity": 4.427458,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 1,
+      "hand": null
+    },
+    {
+      "index": 4,
+      "dateTime": "2019-08-21T14:11:48.1751972",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          2.16486454,
+          0.0,
+          3.64042282
+        ]
+      },
+      "duration": null,
+      "length": 7.346649,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 5,
+      "dateTime": "2019-08-21T14:11:53.6054148",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          1.41421354,
+          1.0,
+          1.41421354
+        ]
+      },
+      "endPosition": {
+        "value": [
+          0.9567621,
+          2.21598673,
+          2.14114451
+        ]
+      },
+      "duration": 7.563385,
+      "length": null,
+      "avgVelocity": 1.19955862,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": -1,
+      "hand": 1
+    },
+    {
+      "index": 6,
+      "dateTime": "2019-08-21T14:12:34.6636043",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          1.39462256,
+          0.0,
+          -12.0114765
+        ]
+      },
+      "duration": null,
+      "length": 15.5748186,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 7,
+      "dateTime": "2019-08-21T14:12:46.1576319",
+      "logType": "DrawLine",
+      "startPosition": {
+        "value": [
+          -1.5345186,
+          1.76122868,
+          2.38806438
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -0.214804277,
+          1.30901361,
+          0.413159639
+        ]
+      },
+      "duration": 8.132906,
+      "length": 41.0796356,
+      "avgVelocity": 5.077935,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 3,
+      "owner": 4,
+      "hand": null
+    },
+    {
+      "index": 8,
+      "dateTime": "2019-08-21T14:12:40.4638151",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          1.97590625,
+          3.30732369,
+          3.66389084
+        ]
+      },
+      "endPosition": {
+        "value": [
+          0.9368055,
+          2.03534746,
+          2.6408987
+        ]
+      },
+      "duration": 14.4861145,
+      "length": null,
+      "avgVelocity": 2.33200765,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": -1,
+      "hand": 1
+    },
+    {
+      "index": 9,
+      "dateTime": "2019-08-21T14:13:00.8243261",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          0.6017468,
+          0.0,
+          6.62302
+        ]
+      },
+      "duration": null,
+      "length": 18.3798733,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 10,
+      "dateTime": "2019-08-21T14:13:07.6276999",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          1.4142133,
+          1.0,
+          -1.41421378
+        ]
+      },
+      "endPosition": {
+        "value": [
+          0.198089883,
+          4.12172461,
+          -1.49649906
+        ]
+      },
+      "duration": 3.37435913,
+      "length": null,
+      "avgVelocity": 2.54054546,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 4,
+      "owner": -1,
+      "hand": 1
+    },
+    {
+      "index": 11,
+      "dateTime": "2019-08-21T14:13:12.332449",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          0.0781529844,
+          4.114794,
+          -1.49443352
+        ]
+      },
+      "endPosition": {
+        "value": [
+          0.8543037,
+          2.49856949,
+          2.33446836
+        ]
+      },
+      "duration": 4.689789,
+      "length": null,
+      "avgVelocity": 0.8010367,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 4,
+      "owner": -1,
+      "hand": 1
+    },
+    {
+      "index": 12,
+      "dateTime": "2019-08-21T14:13:17.9154209",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          0.827136636,
+          2.26435184,
+          2.29498816
+        ]
+      },
+      "endPosition": {
+        "value": [
+          1.42407131,
+          4.75308228,
+          2.837445
+        ]
+      },
+      "duration": 5.284027,
+      "length": null,
+      "avgVelocity": 2.74149275,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 0,
+      "owner": 1,
+      "hand": 1
+    },
+    {
+      "index": 13,
+      "dateTime": "2019-08-21T14:13:24.7513724",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          0.8740715,
+          2.47802567,
+          2.33217788
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -0.963294566,
+          5.449871,
+          -3.8347652
+        ]
+      },
+      "duration": 6.300049,
+      "length": null,
+      "avgVelocity": 0.925167859,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 4,
+      "owner": -1,
+      "hand": 1
+    },
+    {
+      "index": 14,
+      "dateTime": "2019-08-21T14:13:33.2187846",
+      "logType": "GrabNodeVizmoControl",
+      "startPosition": {
+        "value": [
+          -0.359364033,
+          3.66682386,
+          -0.03984362
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -5.33818626,
+          5.22689,
+          5.99943638
+        ]
+      },
+      "duration": 3.050293,
+      "length": null,
+      "avgVelocity": 3.19799566,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 28,
+      "owner": 4,
+      "hand": 1
+    },
+    {
+      "index": 15,
+      "dateTime": "2019-08-21T14:13:29.3362353",
+      "logType": "DrawLine",
+      "startPosition": {
+        "value": [
+          -3.16642952,
+          1.02550244,
+          2.7703402
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -4.82733965,
+          1.02722359,
+          0.6220181
+        ]
+      },
+      "duration": 10.9539461,
+      "length": 71.7107239,
+      "avgVelocity": 6.604281,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 4,
+      "owner": 5,
+      "hand": null
+    },
+    {
+      "index": 16,
+      "dateTime": "2019-08-21T14:13:46.2185956",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          1.34379423,
+          0.0,
+          4.28521061
+        ]
+      },
+      "duration": null,
+      "length": 2.30300546,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 17,
+      "dateTime": "2019-08-21T14:14:10.4755627",
+      "logType": "DrawLine",
+      "startPosition": {
+        "value": [
+          0.975780547,
+          1.55698025,
+          4.801402
+        ]
+      },
+      "endPosition": {
+        "value": [
+          15.4596291,
+          11.2498617,
+          -15.05178
+        ]
+      },
+      "duration": 11.4784813,
+      "length": 36.1804466,
+      "avgVelocity": 3.16332579,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 5,
+      "owner": 3,
+      "hand": null
+    },
+    {
+      "index": 18,
+      "dateTime": "2019-08-21T14:14:30.4890537",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          2.0,
+          1.0,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          4.60110855,
+          2.6140666,
+          6.80143
+        ]
+      },
+      "duration": 16.4313049,
+      "length": null,
+      "avgVelocity": 3.67231512,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 3,
+      "owner": -1,
+      "hand": 1
+    },
+    {
+      "index": 19,
+      "dateTime": "2019-08-21T14:14:48.8689943",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          2.86887455,
+          1.63958347,
+          4.43064165
+        ]
+      },
+      "endPosition": {
+        "value": [
+          2.86184549,
+          1.70306385,
+          4.43853569
+        ]
+      },
+      "duration": 0.250457764,
+      "length": null,
+      "avgVelocity": 0.525875747,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 6,
+      "owner": 3,
+      "hand": 1
+    },
+    {
+      "index": 20,
+      "dateTime": "2019-08-21T14:14:49.5788774",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          2.86039257,
+          1.71027422,
+          4.438732
+        ]
+      },
+      "endPosition": {
+        "value": [
+          3.79897833,
+          1.88499951,
+          3.45937371
+        ]
+      },
+      "duration": 3.08404541,
+      "length": null,
+      "avgVelocity": 1.14634788,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 6,
+      "owner": 3,
+      "hand": 1
+    },
+    {
+      "index": 21,
+      "dateTime": "2019-08-21T14:14:53.7133301",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          9.209648,
+          5.18663645,
+          13.2035084
+        ]
+      },
+      "endPosition": {
+        "value": [
+          8.717282,
+          5.04224539,
+          13.5102987
+        ]
+      },
+      "duration": 0.8150635,
+      "length": null,
+      "avgVelocity": 1.3369236,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 9,
+      "owner": 1,
+      "hand": 1
+    },
+    {
+      "index": 22,
+      "dateTime": "2019-08-21T14:14:55.252703",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          4.583146,
+          2.671313,
+          6.83335638
+        ]
+      },
+      "endPosition": {
+        "value": [
+          3.60419536,
+          2.55253124,
+          5.230574
+        ]
+      },
+      "duration": 2.33560181,
+      "length": null,
+      "avgVelocity": 0.117527694,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 3,
+      "owner": -1,
+      "hand": 1
+    },
+    {
+      "index": 23,
+      "dateTime": "2019-08-21T14:15:00.1579506",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          0.09949113,
+          1.21928561,
+          2.906557
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -0.1164556,
+          1.11606514,
+          3.043823
+        ]
+      },
+      "duration": 0.198944092,
+      "length": null,
+      "avgVelocity": 1.6004076,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 30,
+      "owner": 1,
+      "hand": 1
+    },
+    {
+      "index": 24,
+      "dateTime": "2019-08-21T14:15:05.7419262",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          3.63644242,
+          2.56354141,
+          5.25285959
+        ]
+      },
+      "endPosition": {
+        "value": [
+          1.11538267,
+          1.46526825,
+          4.667595
+        ]
+      },
+      "duration": 6.770569,
+      "length": null,
+      "avgVelocity": 0.266899258,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 3,
+      "owner": -1,
+      "hand": 1
+    },
+    {
+      "index": 25,
+      "dateTime": "2019-08-21T14:15:37.8648699",
+      "logType": "StopAudio",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 26,
+      "dateTime": "2019-08-21T14:15:39.0716433",
+      "logType": "StartAudio",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 27,
+      "dateTime": "2019-08-21T14:15:47.7623578",
+      "logType": "ShowMixer",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 28,
+      "dateTime": "2019-08-21T14:15:49.6349577",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          2.770129,
+          0.0,
+          0.213491917
+        ]
+      },
+      "duration": null,
+      "length": 2.84705544,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 29,
+      "dateTime": "2019-08-21T14:15:52.2411758",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -1.042763,
+          0.0,
+          -4.283495
+        ]
+      },
+      "duration": null,
+      "length": 5.70896339,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 30,
+      "dateTime": "2019-08-21T14:16:00.7485998",
+      "logType": "StartAudio",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 31,
+      "dateTime": "2019-08-21T14:15:44.8592707",
+      "logType": "DrawLine",
+      "startPosition": {
+        "value": [
+          -9.394325,
+          1.54635513,
+          -0.04643404
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -10.7410612,
+          1.21280837,
+          0.7000727
+        ]
+      },
+      "duration": 16.27253,
+      "length": 102.168076,
+      "avgVelocity": 6.3191967,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 6,
+      "owner": 6,
+      "hand": null
+    },
+    {
+      "index": 32,
+      "dateTime": "2019-08-21T14:16:16.3244288",
+      "logType": "Mute",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 3,
+      "hand": null
+    },
+    {
+      "index": 33,
+      "dateTime": "2019-08-21T14:16:17.3295102",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          -1.70965362,
+          2.075998,
+          -1.92152739
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -1.71683872,
+          2.12363362,
+          -1.22486424
+        ]
+      },
+      "duration": 0.4376831,
+      "length": null,
+      "avgVelocity": 1.75484633,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 24,
+      "owner": 4,
+      "hand": 1
+    },
+    {
+      "index": 34,
+      "dateTime": "2019-08-21T14:16:31.9140038",
+      "logType": "Mute",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 5,
+      "hand": null
+    },
+    {
+      "index": 35,
+      "dateTime": "2019-08-21T14:16:34.165237",
+      "logType": "Unmute",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 5,
+      "hand": null
+    },
+    {
+      "index": 36,
+      "dateTime": "2019-08-21T14:16:37.2981566",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -1.56464422,
+          0.0,
+          3.48701763
+        ]
+      },
+      "duration": null,
+      "length": 6.733058,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 37,
+      "dateTime": "2019-08-21T14:16:40.1602589",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -2.27068472,
+          0.0,
+          9.44897652
+        ]
+      },
+      "duration": null,
+      "length": 5.67009735,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 38,
+      "dateTime": "2019-08-21T14:16:40.8615462",
+      "logType": "Solo",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 5,
+      "hand": null
+    },
+    {
+      "index": 39,
+      "dateTime": "2019-08-21T14:16:57.271543",
+      "logType": "Unsolo",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 5,
+      "hand": null
+    },
+    {
+      "index": 40,
+      "dateTime": "2019-08-21T14:16:59.7822786",
+      "logType": "Solo",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 5,
+      "hand": null
+    },
+    {
+      "index": 41,
+      "dateTime": "2019-08-21T14:17:03.1905818",
+      "logType": "Unsolo",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 5,
+      "hand": null
+    },
+    {
+      "index": 42,
+      "dateTime": "2019-08-21T14:17:05.1369467",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          8.732319,
+          5.04195356,
+          13.5005579
+        ]
+      },
+      "endPosition": {
+        "value": [
+          8.288904,
+          4.65284157,
+          14.581605
+        ]
+      },
+      "duration": 3.15167236,
+      "length": null,
+      "avgVelocity": 2.23469973,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 9,
+      "owner": 1,
+      "hand": 1
+    },
+    {
+      "index": 43,
+      "dateTime": "2019-08-21T14:17:30.5524309",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          -2.25866,
+          0.7949159,
+          7.285613
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -2.30855632,
+          0.74217695,
+          7.037327
+        ]
+      },
+      "duration": 0.5117798,
+      "length": null,
+      "avgVelocity": 0.0193388835,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 4,
+      "owner": -1,
+      "hand": 1
+    },
+    {
+      "index": 44,
+      "dateTime": "2019-08-21T14:17:31.4667419",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          -2.31175947,
+          0.7352289,
+          7.02993631
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -0.123453386,
+          1.141212,
+          10.9602661
+        ]
+      },
+      "duration": 2.88787842,
+      "length": null,
+      "avgVelocity": 0.368616581,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 4,
+      "owner": -1,
+      "hand": 1
+    },
+    {
+      "index": 45,
+      "dateTime": "2019-08-21T14:17:46.679453",
+      "logType": "DrawLine",
+      "startPosition": {
+        "value": [
+          1.63719511,
+          1.93524575,
+          11.0017
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -0.9329785,
+          4.58846951,
+          11.1889172
+        ]
+      },
+      "duration": 9.547646,
+      "length": 17.59821,
+      "avgVelocity": 1.8456893,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 8,
+      "owner": 7,
+      "hand": null
+    },
+    {
+      "index": 46,
+      "dateTime": "2019-08-21T14:18:01.8277728",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          -0.111353464,
+          1.16443264,
+          10.9536705
+        ]
+      },
+      "endPosition": {
+        "value": [
+          1.92019725,
+          2.19583726,
+          10.9683056
+        ]
+      },
+      "duration": 5.78527832,
+      "length": null,
+      "avgVelocity": 0.2625877,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 4,
+      "owner": -1,
+      "hand": 1
+    },
+    {
+      "index": 47,
+      "dateTime": "2019-08-21T14:18:07.64639",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          1.62834609,
+          1.94371772,
+          11.0087109
+        ]
+      },
+      "endPosition": {
+        "value": [
+          1.62828934,
+          1.94153535,
+          11.0090408
+        ]
+      },
+      "duration": 0.09008789,
+      "length": null,
+      "avgVelocity": 0.0588081256,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 0,
+      "owner": 7,
+      "hand": 1
+    },
+    {
+      "index": 48,
+      "dateTime": "2019-08-21T14:18:11.3208916",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          1.62854469,
+          1.94103229,
+          11.0083685
+        ]
+      },
+      "endPosition": {
+        "value": [
+          1.16443694,
+          2.04980826,
+          10.8364944
+        ]
+      },
+      "duration": 1.34216309,
+      "length": null,
+      "avgVelocity": 0.5655284,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 0,
+      "owner": 7,
+      "hand": 1
+    },
+    {
+      "index": 49,
+      "dateTime": "2019-08-21T14:18:13.0934599",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          1.1323607,
+          2.0339036,
+          10.8342609
+        ]
+      },
+      "endPosition": {
+        "value": [
+          1.68053794,
+          2.14891672,
+          10.9172335
+        ]
+      },
+      "duration": 1.79022217,
+      "length": null,
+      "avgVelocity": 0.302791744,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 0,
+      "owner": 7,
+      "hand": 1
+    },
+    {
+      "index": 50,
+      "dateTime": "2019-08-21T14:17:45.3178736",
+      "logType": "DrawLine",
+      "startPosition": {
+        "value": [
+          -9.915331,
+          1.6658653,
+          2.44901323
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -9.331587,
+          2.35216975,
+          3.16935468
+        ]
+      },
+      "duration": 3.6604805,
+      "length": 4.78996325,
+      "avgVelocity": 1.31056,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 7,
+      "owner": 8,
+      "hand": null
+    },
+    {
+      "index": 51,
+      "dateTime": "2019-08-21T14:18:26.3535714",
+      "logType": "Mute",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 4,
+      "hand": null
+    },
+    {
+      "index": 52,
+      "dateTime": "2019-08-21T14:18:26.2626139",
+      "logType": "DrawLine",
+      "startPosition": {
+        "value": [
+          -11.10103,
+          3.55911851,
+          3.3897357
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -8.286921,
+          4.087632,
+          2.792971
+        ]
+      },
+      "duration": 3.4855392,
+      "length": 3.855721,
+      "avgVelocity": 1.10293257,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 9,
+      "owner": 8,
+      "hand": null
+    },
+    {
+      "index": 53,
+      "dateTime": "2019-08-21T14:18:31.0113726",
+      "logType": "StartAudio",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 54,
+      "dateTime": "2019-08-21T14:18:35.549658",
+      "logType": "Solo",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 5,
+      "hand": null
+    },
+    {
+      "index": 55,
+      "dateTime": "2019-08-21T14:18:39.6093424",
+      "logType": "Unsolo",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 5,
+      "hand": null
+    },
+    {
+      "index": 56,
+      "dateTime": "2019-08-21T14:18:31.8192132",
+      "logType": "DrawLine",
+      "startPosition": {
+        "value": [
+          -8.979273,
+          4.180906,
+          3.00584817
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -10.5411959,
+          1.35355461,
+          0.195178553
+        ]
+      },
+      "duration": 9.836375,
+      "length": 41.3372459,
+      "avgVelocity": 4.217319,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 10,
+      "owner": 10,
+      "hand": null
+    },
+    {
+      "index": 57,
+      "dateTime": "2019-08-21T14:18:43.2414362",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          1.68291664,
+          2.14936233,
+          10.9183016
+        ]
+      },
+      "endPosition": {
+        "value": [
+          1.90503812,
+          1.80141687,
+          10.6735468
+        ]
+      },
+      "duration": 3.00921631,
+      "length": null,
+      "avgVelocity": 1.06665814,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 0,
+      "owner": 7,
+      "hand": 1
+    },
+    {
+      "index": 58,
+      "dateTime": "2019-08-21T14:18:47.0102544",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          1.97987878,
+          2.22098541,
+          11.0444078
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -1.05848765,
+          3.6581037,
+          7.31617928
+        ]
+      },
+      "duration": 5.62084961,
+      "length": null,
+      "avgVelocity": 0.378839016,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 4,
+      "owner": 7,
+      "hand": 1
+    },
+    {
+      "index": 59,
+      "dateTime": "2019-08-21T14:18:55.6252673",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          -1.04723883,
+          3.73199868,
+          7.393455
+        ]
+      },
+      "endPosition": {
+        "value": [
+          0.84101975,
+          1.92023885,
+          10.6448708
+        ]
+      },
+      "duration": 3.527588,
+      "length": null,
+      "avgVelocity": 0.1978356,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 4,
+      "owner": -1,
+      "hand": 1
+    },
+    {
+      "index": 60,
+      "dateTime": "2019-08-21T14:19:00.2746874",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          0.9150313,
+          1.86957121,
+          10.645977
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -1.18152094,
+          1.51256692,
+          9.706119
+        ]
+      },
+      "duration": 5.174988,
+      "length": null,
+      "avgVelocity": 0.197298467,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 4,
+      "owner": -1,
+      "hand": 1
+    },
+    {
+      "index": 61,
+      "dateTime": "2019-08-21T14:19:06.6765029",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          1.90955579,
+          1.79706085,
+          10.6610146
+        ]
+      },
+      "endPosition": {
+        "value": [
+          1.90900826,
+          1.78903949,
+          10.6702938
+        ]
+      },
+      "duration": 0.0679931641,
+      "length": null,
+      "avgVelocity": 0.00297203474,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 0,
+      "owner": 7,
+      "hand": 1
+    },
+    {
+      "index": 62,
+      "dateTime": "2019-08-21T14:19:06.9692875",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          -1.17410362,
+          1.49387109,
+          9.742957
+        ]
+      },
+      "endPosition": {
+        "value": [
+          2.6222043,
+          2.10484529,
+          11.1957569
+        ]
+      },
+      "duration": 2.39990234,
+      "length": null,
+      "avgVelocity": 0.113404281,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 4,
+      "owner": -1,
+      "hand": 1
+    },
+    {
+      "index": 63,
+      "dateTime": "2019-08-21T14:19:13.4702212",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          1.90876544,
+          1.78548443,
+          10.6744061
+        ]
+      },
+      "endPosition": {
+        "value": [
+          1.92429161,
+          1.89142787,
+          10.60326
+        ]
+      },
+      "duration": 0.6373291,
+      "length": null,
+      "avgVelocity": 0.0432239622,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 0,
+      "owner": 7,
+      "hand": 1
+    },
+    {
+      "index": 64,
+      "dateTime": "2019-08-21T14:19:14.3760825",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          1.91200948,
+          1.92792213,
+          10.6147547
+        ]
+      },
+      "endPosition": {
+        "value": [
+          2.20174384,
+          2.07060432,
+          10.969451
+        ]
+      },
+      "duration": 1.89556885,
+      "length": null,
+      "avgVelocity": 0.162033215,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 0,
+      "owner": 7,
+      "hand": 1
+    },
+    {
+      "index": 65,
+      "dateTime": "2019-08-21T14:19:19.6897417",
+      "logType": "StartAudio",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 66,
+      "dateTime": "2019-08-21T14:19:25.7071093",
+      "logType": "Solo",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 5,
+      "hand": null
+    },
+    {
+      "index": 67,
+      "dateTime": "2019-08-21T14:19:29.8755546",
+      "logType": "Unsolo",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 5,
+      "hand": null
+    },
+    {
+      "index": 68,
+      "dateTime": "2019-08-21T14:19:30.2786037",
+      "logType": "Mute",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 5,
+      "hand": null
+    },
+    {
+      "index": 69,
+      "dateTime": "2019-08-21T14:19:31.42927",
+      "logType": "Solo",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 5,
+      "hand": null
+    },
+    {
+      "index": 70,
+      "dateTime": "2019-08-21T14:19:31.6412104",
+      "logType": "Unsolo",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 5,
+      "hand": null
+    },
+    {
+      "index": 71,
+      "dateTime": "2019-08-21T14:19:33.7283478",
+      "logType": "Unmute",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 5,
+      "hand": null
+    },
+    {
+      "index": 72,
+      "dateTime": "2019-08-21T14:19:35.6071704",
+      "logType": "StopAudio",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 73,
+      "dateTime": "2019-08-21T14:19:36.8688094",
+      "logType": "StartAudio",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 74,
+      "dateTime": "2019-08-21T14:19:43.1997583",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          11.8110466,
+          0.0,
+          14.9277077
+        ]
+      },
+      "duration": null,
+      "length": 14.7597256,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 75,
+      "dateTime": "2019-08-21T14:20:00.4828142",
+      "logType": "StopAudio",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 76,
+      "dateTime": "2019-08-21T14:20:05.1642924",
+      "logType": "Solo",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 5,
+      "hand": null
+    },
+    {
+      "index": 77,
+      "dateTime": "2019-08-21T14:20:07.8292067",
+      "logType": "StopAudio",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 78,
+      "dateTime": "2019-08-21T14:20:08.6376337",
+      "logType": "Unsolo",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 5,
+      "hand": null
+    },
+    {
+      "index": 79,
+      "dateTime": "2019-08-21T14:20:11.9560185",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          -4.53421736,
+          3.13454413,
+          2.694932
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -4.253154,
+          3.02986741,
+          2.36374021
+        ]
+      },
+      "duration": 2.27990723,
+      "length": null,
+      "avgVelocity": 4.341366,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 8,
+      "owner": 4,
+      "hand": 1
+    },
+    {
+      "index": 80,
+      "dateTime": "2019-08-21T14:20:21.8067935",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          3.74497128,
+          0.0,
+          0.0038394928
+        ]
+      },
+      "duration": null,
+      "length": 16.4446831,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 81,
+      "dateTime": "2019-08-21T14:20:49.2852994",
+      "logType": "HideMixer",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 82,
+      "dateTime": "2019-08-21T14:20:49.2852994",
+      "logType": "ShowTrajectoryManager",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 83,
+      "dateTime": "2019-08-21T14:20:49.7280043",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          2.30895162,
+          0.0,
+          0.375394
+        ]
+      },
+      "duration": null,
+      "length": 1.59422946,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 84,
+      "dateTime": "2019-08-21T14:20:52.9940469",
+      "logType": "SelectTrajectory",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 85,
+      "dateTime": "2019-08-21T14:20:53.7066558",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          1.91483784,
+          0.0,
+          11.29509
+        ]
+      },
+      "duration": null,
+      "length": 10.4272814,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 86,
+      "dateTime": "2019-08-21T14:20:55.9048557",
+      "logType": "SelectTrajectory",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 4,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 87,
+      "dateTime": "2019-08-21T14:21:00.6003991",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          3.56112146,
+          0.0,
+          17.1966648
+        ]
+      },
+      "duration": null,
+      "length": 5.68601036,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 88,
+      "dateTime": "2019-08-21T14:21:02.3212091",
+      "logType": "SelectTrajectory",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 89,
+      "dateTime": "2019-08-21T14:21:03.9035628",
+      "logType": "SelectTrajectory",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 1,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 90,
+      "dateTime": "2019-08-21T14:21:05.6999459",
+      "logType": "SelectTrajectory",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 4,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 91,
+      "dateTime": "2019-08-21T14:21:11.9046447",
+      "logType": "SelectTrajectory",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 5,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 92,
+      "dateTime": "2019-08-21T14:21:14.4610957",
+      "logType": "SelectTrajectory",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 3,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 93,
+      "dateTime": "2019-08-21T14:21:19.04287",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -1.2413106,
+          0.0,
+          8.639283
+        ]
+      },
+      "duration": null,
+      "length": 9.395214,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 94,
+      "dateTime": "2019-08-21T14:21:20.5914687",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -1.711957,
+          0.0,
+          4.047122
+        ]
+      },
+      "duration": null,
+      "length": 4.40214348,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 95,
+      "dateTime": "2019-08-21T14:21:22.57271",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -13.6739645,
+          0.0,
+          1.54361057
+        ]
+      },
+      "duration": null,
+      "length": 11.6910305,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 96,
+      "dateTime": "2019-08-21T14:22:00.6048795",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -4.65548134,
+          0.0,
+          1.29377723
+        ]
+      },
+      "duration": null,
+      "length": 8.389415,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 97,
+      "dateTime": "2019-08-21T14:22:05.141347",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -17.0439167,
+          0.0,
+          2.49770451
+        ]
+      },
+      "duration": null,
+      "length": 12.0751534,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 98,
+      "dateTime": "2019-08-21T14:22:22.7248542",
+      "logType": "HideTrajectoryManager",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 99,
+      "dateTime": "2019-08-21T14:22:22.7248542",
+      "logType": "ShowMixer",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 100,
+      "dateTime": "2019-08-21T14:22:23.113578",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -16.8560162,
+          0.0,
+          7.89613438
+        ]
+      },
+      "duration": null,
+      "length": 4.671093,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 101,
+      "dateTime": "2019-08-21T14:22:31.2113731",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -8.987873,
+          0.0,
+          0.4796996
+        ]
+      },
+      "duration": null,
+      "length": 10.0914249,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 102,
+      "dateTime": "2019-08-21T14:22:59.2604957",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          15.5866556,
+          11.3312683,
+          -14.2513294
+        ]
+      },
+      "endPosition": {
+        "value": [
+          12.7451639,
+          6.051745,
+          -19.6618671
+        ]
+      },
+      "duration": 3.39361572,
+      "length": null,
+      "avgVelocity": 6.659071,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 18,
+      "owner": 3,
+      "hand": 1
+    },
+    {
+      "index": 103,
+      "dateTime": "2019-08-21T14:23:05.2131752",
+      "logType": "GrabNodeVizmoControl",
+      "startPosition": {
+        "value": [
+          15.5753469,
+          11.3554592,
+          -14.34565
+        ]
+      },
+      "endPosition": {
+        "value": [
+          2.34962749,
+          0.6450887,
+          -19.9044476
+        ]
+      },
+      "duration": 4.883911,
+      "length": null,
+      "avgVelocity": 4.824753,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 19,
+      "owner": 3,
+      "hand": 1
+    },
+    {
+      "index": 104,
+      "dateTime": "2019-08-21T14:23:12.7229415",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          13.7886133,
+          4.43088531,
+          -0.411764145
+        ]
+      },
+      "endPosition": {
+        "value": [
+          13.7999725,
+          4.412692,
+          -0.447607279
+        ]
+      },
+      "duration": 0.09008789,
+      "length": null,
+      "avgVelocity": 0.0008045941,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 3,
+      "owner": 3,
+      "hand": 1
+    },
+    {
+      "index": 105,
+      "dateTime": "2019-08-21T14:23:13.2821668",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          14.4365454,
+          2.81213784,
+          -1.36818659
+        ]
+      },
+      "endPosition": {
+        "value": [
+          3.36860466,
+          8.487018,
+          -7.714553
+        ]
+      },
+      "duration": 2.69940186,
+      "length": null,
+      "avgVelocity": 6.231496,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 12,
+      "owner": 3,
+      "hand": 1
+    },
+    {
+      "index": 106,
+      "dateTime": "2019-08-21T14:23:17.9804686",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          13.7984285,
+          4.410899,
+          -0.4613124
+        ]
+      },
+      "endPosition": {
+        "value": [
+          9.187368,
+          10.7452259,
+          -9.669565
+        ]
+      },
+      "duration": 2.515564,
+      "length": null,
+      "avgVelocity": 0.7208379,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 3,
+      "owner": -1,
+      "hand": 1
+    },
+    {
+      "index": 107,
+      "dateTime": "2019-08-21T14:23:21.111244",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          4.211103,
+          8.595302,
+          -7.55633974
+        ]
+      },
+      "endPosition": {
+        "value": [
+          4.536838,
+          8.963583,
+          -7.57094526
+        ]
+      },
+      "duration": 2.30316162,
+      "length": null,
+      "avgVelocity": 1.55166113,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 12,
+      "owner": 3,
+      "hand": 1
+    },
+    {
+      "index": 108,
+      "dateTime": "2019-08-21T14:23:24.1567453",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          4.543294,
+          8.950415,
+          -7.58102226
+        ]
+      },
+      "endPosition": {
+        "value": [
+          4.520389,
+          8.856138,
+          -7.704632
+        ]
+      },
+      "duration": 0.126586914,
+      "length": null,
+      "avgVelocity": 0.03531241,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 12,
+      "owner": 3,
+      "hand": 1
+    },
+    {
+      "index": 109,
+      "dateTime": "2019-08-21T14:23:24.8488948",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          9.13798,
+          10.7075806,
+          -9.794126
+        ]
+      },
+      "endPosition": {
+        "value": [
+          2.57496262,
+          1.15493715,
+          -18.9868317
+        ]
+      },
+      "duration": 3.38574219,
+      "length": null,
+      "avgVelocity": 0.70543474,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 3,
+      "owner": -1,
+      "hand": 1
+    },
+    {
+      "index": 110,
+      "dateTime": "2019-08-21T14:23:28.6967437",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          2.507945,
+          1.02336669,
+          -19.0279121
+        ]
+      },
+      "endPosition": {
+        "value": [
+          2.08194351,
+          0.8676946,
+          -19.3778
+        ]
+      },
+      "duration": 2.90167236,
+      "length": null,
+      "avgVelocity": 0.150515333,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 3,
+      "owner": -1,
+      "hand": 1
+    },
+    {
+      "index": 111,
+      "dateTime": "2019-08-21T14:23:32.1781221",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          2.07351327,
+          0.8999484,
+          -19.3974133
+        ]
+      },
+      "endPosition": {
+        "value": [
+          2.27129173,
+          0.5518951,
+          -19.2697811
+        ]
+      },
+      "duration": 0.6689453,
+      "length": null,
+      "avgVelocity": 0.0281929877,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 3,
+      "owner": -1,
+      "hand": 1
+    },
+    {
+      "index": 112,
+      "dateTime": "2019-08-21T14:23:35.8176063",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          2.16951418,
+          0.8998887,
+          -19.32365
+        ]
+      },
+      "endPosition": {
+        "value": [
+          2.34418035,
+          0.7392125,
+          -19.2387142
+        ]
+      },
+      "duration": 0.27947998,
+      "length": null,
+      "avgVelocity": 0.007951961,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 3,
+      "owner": -1,
+      "hand": 1
+    },
+    {
+      "index": 113,
+      "dateTime": "2019-08-21T14:23:36.1746846",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          2.30232143,
+          0.7299543,
+          -19.2554111
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -0.7744719,
+          0.005519732,
+          -20.7027454
+        ]
+      },
+      "duration": 0.7330322,
+      "length": null,
+      "avgVelocity": 0.11708577,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 3,
+      "owner": -1,
+      "hand": 1
+    },
+    {
+      "index": 114,
+      "dateTime": "2019-08-21T14:23:37.8873407",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          -6.481928,
+          0.5379895,
+          -3.262295
+        ]
+      },
+      "endPosition": {
+        "value": [
+          14.62856,
+          2.457797,
+          11.3191986
+        ]
+      },
+      "duration": 6.825012,
+      "length": null,
+      "avgVelocity": 7.67240572,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 6,
+      "owner": 10,
+      "hand": 1
+    },
+    {
+      "index": 115,
+      "dateTime": "2019-08-21T14:23:35.6520491",
+      "logType": "DrawLine",
+      "startPosition": {
+        "value": [
+          -14.6772375,
+          1.51142228,
+          -1.444479
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -12.9334412,
+          0.8918634,
+          1.45278084
+        ]
+      },
+      "duration": 12.8250637,
+      "length": 23.9896927,
+      "avgVelocity": 1.87982762,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 11,
+      "owner": 11,
+      "hand": null
+    },
+    {
+      "index": 116,
+      "dateTime": "2019-08-21T14:23:46.6632042",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          14.6675615,
+          2.19014454,
+          11.2855978
+        ]
+      },
+      "endPosition": {
+        "value": [
+          0.692944944,
+          1.54143047,
+          4.688065
+        ]
+      },
+      "duration": 8.304932,
+      "length": null,
+      "avgVelocity": 1.40851438,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 6,
+      "owner": -1,
+      "hand": 1
+    },
+    {
+      "index": 117,
+      "dateTime": "2019-08-21T14:24:02.4045259",
+      "logType": "Mute",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 6,
+      "hand": null
+    },
+    {
+      "index": 118,
+      "dateTime": "2019-08-21T14:24:03.9003785",
+      "logType": "Unmute",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 6,
+      "hand": null
+    },
+    {
+      "index": 119,
+      "dateTime": "2019-08-21T14:24:03.8914016",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          -9.932823,
+          1.67758,
+          2.49308348
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -10.0219259,
+          1.69791245,
+          3.00970626
+        ]
+      },
+      "duration": 0.383544922,
+      "length": null,
+      "avgVelocity": 1.39457417,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 0,
+      "owner": 8,
+      "hand": 1
+    },
+    {
+      "index": 120,
+      "dateTime": "2019-08-21T14:24:09.2359263",
+      "logType": "Mute",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 6,
+      "hand": null
+    },
+    {
+      "index": 121,
+      "dateTime": "2019-08-21T14:24:12.7674653",
+      "logType": "Unmute",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 6,
+      "hand": null
+    },
+    {
+      "index": 122,
+      "dateTime": "2019-08-21T14:24:13.4715834",
+      "logType": "Solo",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 5,
+      "hand": null
+    },
+    {
+      "index": 123,
+      "dateTime": "2019-08-21T14:24:15.251645",
+      "logType": "Unsolo",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 5,
+      "hand": null
+    },
+    {
+      "index": 124,
+      "dateTime": "2019-08-21T14:24:08.7641838",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          -9.932823,
+          1.67758,
+          2.49308348
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -10.2610226,
+          0.95466125,
+          4.41115
+        ]
+      },
+      "duration": 7.290039,
+      "length": null,
+      "avgVelocity": 0.653033435,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 0,
+      "owner": 8,
+      "hand": 1
+    },
+    {
+      "index": 125,
+      "dateTime": "2019-08-21T14:24:17.2149261",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -11.2466221,
+          0.0,
+          7.964885
+        ]
+      },
+      "duration": null,
+      "length": 7.221403,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 126,
+      "dateTime": "2019-08-21T14:24:18.1050553",
+      "logType": "VolumeChange",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": 2.14838552,
+      "length": 0.0,
+      "avgVelocity": 0.0,
+      "initialValue": 1.0,
+      "finalValue": 1.0,
+      "id": 0,
+      "owner": 5,
+      "hand": null
+    },
+    {
+      "index": 127,
+      "dateTime": "2019-08-21T14:24:20.4974473",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -13.04422,
+          0.0,
+          15.4081821
+        ]
+      },
+      "duration": null,
+      "length": 7.27676868,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 128,
+      "dateTime": "2019-08-21T14:24:24.2720835",
+      "logType": "Mute",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 6,
+      "hand": null
+    },
+    {
+      "index": 129,
+      "dateTime": "2019-08-21T14:24:26.5268365",
+      "logType": "Solo",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 5,
+      "hand": null
+    },
+    {
+      "index": 130,
+      "dateTime": "2019-08-21T14:24:28.0479194",
+      "logType": "Unsolo",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 5,
+      "hand": null
+    },
+    {
+      "index": 131,
+      "dateTime": "2019-08-21T14:24:31.4981251",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          4.98839855,
+          0.0,
+          0.9327698
+        ]
+      },
+      "duration": null,
+      "length": 22.4727859,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 132,
+      "dateTime": "2019-08-21T14:24:33.9689316",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          11.24301,
+          9.517863,
+          -7.756079
+        ]
+      },
+      "endPosition": {
+        "value": [
+          15.053689,
+          8.122544,
+          -4.495709
+        ]
+      },
+      "duration": 1.7590332,
+      "length": null,
+      "avgVelocity": 0.442956626,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 6,
+      "owner": 3,
+      "hand": 1
+    },
+    {
+      "index": 133,
+      "dateTime": "2019-08-21T14:24:36.2594199",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          15.0433178,
+          8.045897,
+          -4.60749865
+        ]
+      },
+      "endPosition": {
+        "value": [
+          14.9414539,
+          7.94431734,
+          -4.761058
+        ]
+      },
+      "duration": 1.779541,
+      "length": null,
+      "avgVelocity": 0.155493364,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 6,
+      "owner": -1,
+      "hand": 1
+    },
+    {
+      "index": 134,
+      "dateTime": "2019-08-21T14:24:39.8290548",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          16.7318859,
+          9.168956,
+          -5.388423
+        ]
+      },
+      "endPosition": {
+        "value": [
+          16.7304764,
+          9.133756,
+          -5.438181
+        ]
+      },
+      "duration": 0.087890625,
+      "length": null,
+      "avgVelocity": 0.7588045,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 15,
+      "owner": 3,
+      "hand": 1
+    },
+    {
+      "index": 135,
+      "dateTime": "2019-08-21T14:24:40.1677871",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          14.9378424,
+          7.9285183,
+          -4.788019
+        ]
+      },
+      "endPosition": {
+        "value": [
+          15.1805992,
+          8.106893,
+          -4.522929
+        ]
+      },
+      "duration": 2.359497,
+      "length": null,
+      "avgVelocity": 0.178901121,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 6,
+      "owner": -1,
+      "hand": 1
+    },
+    {
+      "index": 136,
+      "dateTime": "2019-08-21T14:24:44.6588704",
+      "logType": "Unmute",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 3,
+      "hand": null
+    },
+    {
+      "index": 137,
+      "dateTime": "2019-08-21T14:24:44.6588704",
+      "logType": "Unmute",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 4,
+      "hand": null
+    },
+    {
+      "index": 138,
+      "dateTime": "2019-08-21T14:24:44.6588704",
+      "logType": "Unmute",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 6,
+      "hand": null
+    },
+    {
+      "index": 139,
+      "dateTime": "2019-08-21T14:24:42.7083144",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          16.7295361,
+          9.125794,
+          -5.450968
+        ]
+      },
+      "endPosition": {
+        "value": [
+          16.4411049,
+          9.409856,
+          -5.043365
+        ]
+      },
+      "duration": 3.8614502,
+      "length": null,
+      "avgVelocity": 2.00854921,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 15,
+      "owner": 3,
+      "hand": 1
+    },
+    {
+      "index": 140,
+      "dateTime": "2019-08-21T14:24:46.9253939",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          15.1881714,
+          8.078643,
+          -4.537175
+        ]
+      },
+      "endPosition": {
+        "value": [
+          15.2422228,
+          8.719194,
+          -4.41025829
+        ]
+      },
+      "duration": 2.383545,
+      "length": null,
+      "avgVelocity": 0.1352979,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 6,
+      "owner": -1,
+      "hand": 1
+    },
+    {
+      "index": 141,
+      "dateTime": "2019-08-21T14:25:06.0750274",
+      "logType": "VolumetricRadiusChange",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": 1.61786,
+      "length": 0.539643049,
+      "avgVelocity": 0.3335536,
+      "initialValue": 0.0,
+      "finalValue": 0.539643049,
+      "id": 3,
+      "owner": 5,
+      "hand": null
+    },
+    {
+      "index": 142,
+      "dateTime": "2019-08-21T14:25:07.8155601",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          5.97733164,
+          0.0,
+          6.45658636
+        ]
+      },
+      "duration": null,
+      "length": 5.38843632,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 143,
+      "dateTime": "2019-08-21T14:25:20.9288085",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          15.2513533,
+          8.712048,
+          -4.37515
+        ]
+      },
+      "endPosition": {
+        "value": [
+          10.6574965,
+          5.02275848,
+          0.6852682
+        ]
+      },
+      "duration": 3.40917969,
+      "length": null,
+      "avgVelocity": 0.5126925,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 6,
+      "owner": 3,
+      "hand": 1
+    },
+    {
+      "index": 144,
+      "dateTime": "2019-08-21T14:25:26.6609908",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          10.9597054,
+          5.225578,
+          0.6923571
+        ]
+      },
+      "endPosition": {
+        "value": [
+          8.285996,
+          4.51723671,
+          4.86120129
+        ]
+      },
+      "duration": 8.266235,
+      "length": null,
+      "avgVelocity": 0.42060712,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 6,
+      "owner": -1,
+      "hand": 1
+    },
+    {
+      "index": 145,
+      "dateTime": "2019-08-21T14:25:36.6578609",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          7.98564434,
+          4.18159056,
+          5.12392139
+        ]
+      },
+      "endPosition": {
+        "value": [
+          7.83379841,
+          4.588951,
+          4.87427759
+        ]
+      },
+      "duration": 2.87353516,
+      "length": null,
+      "avgVelocity": 0.935721338,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 9,
+      "owner": 3,
+      "hand": 1
+    },
+    {
+      "index": 146,
+      "dateTime": "2019-08-21T14:25:47.0187908",
+      "logType": "Solo",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 6,
+      "hand": null
+    },
+    {
+      "index": 147,
+      "dateTime": "2019-08-21T14:25:48.1016722",
+      "logType": "Unsolo",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 6,
+      "hand": null
+    },
+    {
+      "index": 148,
+      "dateTime": "2019-08-21T14:25:49.86233",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          7.839038,
+          0.0,
+          16.1968117
+        ]
+      },
+      "duration": null,
+      "length": 9.476323,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 149,
+      "dateTime": "2019-08-21T14:25:48.7409679",
+      "logType": "DopplerChange",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": 1.13532412,
+      "length": 0.6641147,
+      "avgVelocity": 0.58495605,
+      "initialValue": 0.214000016,
+      "finalValue": 0.87811476,
+      "id": 1,
+      "owner": 6,
+      "hand": null
+    },
+    {
+      "index": 150,
+      "dateTime": "2019-08-21T14:25:51.2532411",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          9.478394,
+          0.0,
+          21.6897316
+        ]
+      },
+      "duration": null,
+      "length": 5.300129,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 151,
+      "dateTime": "2019-08-21T14:25:52.0451233",
+      "logType": "ReverbChange",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": 1.75448489,
+      "length": 0.7798784,
+      "avgVelocity": 0.4445056,
+      "initialValue": 0.0,
+      "finalValue": 0.7798784,
+      "id": 2,
+      "owner": 6,
+      "hand": null
+    },
+    {
+      "index": 152,
+      "dateTime": "2019-08-21T14:26:00.7725622",
+      "logType": "Solo",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 3,
+      "hand": null
+    },
+    {
+      "index": 153,
+      "dateTime": "2019-08-21T14:26:02.915458",
+      "logType": "Unsolo",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 3,
+      "hand": null
+    },
+    {
+      "index": 154,
+      "dateTime": "2019-08-21T14:26:05.4942176",
+      "logType": "ReverbChange",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": 3.15259242,
+      "length": 0.5536414,
+      "avgVelocity": 0.17561464,
+      "initialValue": 0.0,
+      "finalValue": 0.5536414,
+      "id": 2,
+      "owner": 3,
+      "hand": null
+    },
+    {
+      "index": 155,
+      "dateTime": "2019-08-21T14:26:21.2682218",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          1.41372681,
+          0.0,
+          11.1594334
+        ]
+      },
+      "duration": null,
+      "length": 12.879159,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 156,
+      "dateTime": "2019-08-21T14:26:26.800529",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -5.59425735,
+          0.0,
+          2.62015343
+        ]
+      },
+      "duration": null,
+      "length": 10.8947735,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 157,
+      "dateTime": "2019-08-21T14:26:29.4149465",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -0.518631,
+          0.0,
+          0.217230558
+        ]
+      },
+      "duration": null,
+      "length": 5.571591,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 158,
+      "dateTime": "2019-08-21T14:26:28.4764507",
+      "logType": "DrawLine",
+      "startPosition": {
+        "value": [
+          -4.50831461,
+          1.35247993,
+          1.31591451
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -4.846736,
+          4.25972,
+          5.033802
+        ]
+      },
+      "duration": 9.85901,
+      "length": 60.9667549,
+      "avgVelocity": 6.20352268,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 12,
+      "owner": 12,
+      "hand": null
+    },
+    {
+      "index": 159,
+      "dateTime": "2019-08-21T14:26:44.8299145",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          2.5836935,
+          0.0,
+          10.5017509
+        ]
+      },
+      "duration": null,
+      "length": 10.2084856,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 160,
+      "dateTime": "2019-08-21T14:26:42.9350557",
+      "logType": "ReverbChange",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": 1.90981734,
+      "length": 0.9233984,
+      "avgVelocity": 0.4835009,
+      "initialValue": 0.0,
+      "finalValue": 0.9233984,
+      "id": 2,
+      "owner": 1,
+      "hand": null
+    },
+    {
+      "index": 161,
+      "dateTime": "2019-08-21T14:26:51.4514358",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -4.790002,
+          0.0,
+          4.58475065
+        ]
+      },
+      "duration": null,
+      "length": 9.012396,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 162,
+      "dateTime": "2019-08-21T14:26:56.4949338",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          -24.8413258,
+          0.112492554,
+          10.936739
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -18.7994614,
+          9.320351,
+          16.32643
+        ]
+      },
+      "duration": 1.87463379,
+      "length": null,
+      "avgVelocity": 6.68271875,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 24,
+      "owner": 5,
+      "hand": 1
+    },
+    {
+      "index": 163,
+      "dateTime": "2019-08-21T14:26:59.4610484",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          -19.5384922,
+          8.602079,
+          15.9545536
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -3.66886973,
+          13.2307844,
+          19.0086441
+        ]
+      },
+      "duration": 2.36767578,
+      "length": null,
+      "avgVelocity": 4.8099494,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 24,
+      "owner": 5,
+      "hand": 1
+    },
+    {
+      "index": 164,
+      "dateTime": "2019-08-21T14:27:03.3572422",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          -24.84121,
+          0.11252708,
+          7.664238
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -11.5189753,
+          20.23542,
+          4.72921944
+        ]
+      },
+      "duration": 4.01965332,
+      "length": null,
+      "avgVelocity": 8.205528,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 21,
+      "owner": 5,
+      "hand": 1
+    },
+    {
+      "index": 165,
+      "dateTime": "2019-08-21T14:27:06.7995046",
+      "logType": "DrawLine",
+      "startPosition": {
+        "value": [
+          -4.51675,
+          0.693194568,
+          3.65571618
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -8.817862,
+          1.14495265,
+          3.4089632
+        ]
+      },
+      "duration": 0.612343431,
+      "length": 4.34104156,
+      "avgVelocity": 7.13201857,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 13,
+      "owner": 13,
+      "hand": null
+    },
+    {
+      "index": 166,
+      "dateTime": "2019-08-21T14:27:11.4458201",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          -24.3879223,
+          19.0692062,
+          14.7602053
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -19.19187,
+          16.8709049,
+          18.842329
+        ]
+      },
+      "duration": 2.6340332,
+      "length": null,
+      "avgVelocity": 4.51327372,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 33,
+      "owner": 6,
+      "hand": 1
+    },
+    {
+      "index": 167,
+      "dateTime": "2019-08-21T14:27:16.2813776",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          -17.2907887,
+          19.03447,
+          16.5124073
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -14.2981205,
+          12.6252947,
+          24.0226421
+        ]
+      },
+      "duration": 2.70068359,
+      "length": null,
+      "avgVelocity": 6.169151,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 30,
+      "owner": 6,
+      "hand": 1
+    },
+    {
+      "index": 168,
+      "dateTime": "2019-08-21T14:27:20.5484561",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          -19.9655151,
+          16.80371,
+          18.0621643
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -20.06037,
+          17.78013,
+          16.68959
+        ]
+      },
+      "duration": 1.45935059,
+      "length": null,
+      "avgVelocity": 0.852220953,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 33,
+      "owner": 6,
+      "hand": 1
+    },
+    {
+      "index": 169,
+      "dateTime": "2019-08-21T14:27:24.7057732",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          -24.8354416,
+          19.7894287,
+          11.3513241
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -21.6695061,
+          16.4423027,
+          10.5962582
+        ]
+      },
+      "duration": 2.54589844,
+      "length": null,
+      "avgVelocity": 3.68549776,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 1,
+      "owner": 6,
+      "hand": 1
+    },
+    {
+      "index": 170,
+      "dateTime": "2019-08-21T14:27:28.065811",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          -21.602108,
+          16.2176838,
+          10.6760836
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -25.0795021,
+          20.9822884,
+          12.6379824
+        ]
+      },
+      "duration": 2.602295,
+      "length": null,
+      "avgVelocity": 2.39643955,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 1,
+      "owner": -1,
+      "hand": 1
+    },
+    {
+      "index": 171,
+      "dateTime": "2019-08-21T14:27:32.2214812",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          -24.8330631,
+          19.42756,
+          8.90811348
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -24.0072136,
+          18.809742,
+          9.254071
+        ]
+      },
+      "duration": 1.77331543,
+      "length": null,
+      "avgVelocity": 1.32839513,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 42,
+      "owner": 6,
+      "hand": 1
+    },
+    {
+      "index": 172,
+      "dateTime": "2019-08-21T14:27:34.7998457",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          -24.838192,
+          19.963892,
+          12.3170118
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -23.5792542,
+          17.8646717,
+          14.7543221
+        ]
+      },
+      "duration": 1.27966309,
+      "length": null,
+      "avgVelocity": 3.68942237,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 39,
+      "owner": 6,
+      "hand": 1
+    },
+    {
+      "index": 173,
+      "dateTime": "2019-08-21T14:27:37.3588193",
+      "logType": "GrabNodeVizmoControl",
+      "startPosition": {
+        "value": [
+          -24.4776382,
+          19.9988174,
+          12.2270555
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -19.2175236,
+          22.8654957,
+          15.5678062
+        ]
+      },
+      "duration": 1.67272949,
+      "length": null,
+      "avgVelocity": 5.555392,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 40,
+      "owner": 6,
+      "hand": 1
+    },
+    {
+      "index": 174,
+      "dateTime": "2019-08-21T14:27:39.5929648",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          -24.8592815,
+          20.6163368,
+          12.4766293
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -23.3613262,
+          17.4028263,
+          14.3585892
+        ]
+      },
+      "duration": 2.13244629,
+      "length": null,
+      "avgVelocity": 1.2909528,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 1,
+      "owner": 6,
+      "hand": 1
+    },
+    {
+      "index": 175,
+      "dateTime": "2019-08-21T14:27:43.009182",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          -23.4345684,
+          17.4401779,
+          14.3638353
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -14.7900591,
+          10.300395,
+          17.345768
+        ]
+      },
+      "duration": 3.06347656,
+      "length": null,
+      "avgVelocity": 4.575176,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 1,
+      "owner": 6,
+      "hand": 1
+    },
+    {
+      "index": 176,
+      "dateTime": "2019-08-21T14:27:47.8477398",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          -14.4293566,
+          10.4926929,
+          18.01811
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -14.4355459,
+          10.63518,
+          17.91137
+        ]
+      },
+      "duration": 0.147094727,
+      "length": null,
+      "avgVelocity": 0.02343106,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 1,
+      "owner": -1,
+      "hand": 1
+    },
+    {
+      "index": 177,
+      "dateTime": "2019-08-21T14:27:49.8348189",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          -14.452178,
+          10.7152328,
+          17.8415165
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -9.008704,
+          4.989108,
+          8.989768
+        ]
+      },
+      "duration": 7.588745,
+      "length": null,
+      "avgVelocity": 0.7558324,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 1,
+      "owner": -1,
+      "hand": 1
+    },
+    {
+      "index": 178,
+      "dateTime": "2019-08-21T14:27:58.6497664",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          -8.977819,
+          4.930676,
+          9.096638
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -7.942562,
+          4.30144358,
+          7.757641
+        ]
+      },
+      "duration": 1.442627,
+      "length": null,
+      "avgVelocity": 0.1117846,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 1,
+      "owner": -1,
+      "hand": 1
+    },
+    {
+      "index": 179,
+      "dateTime": "2019-08-21T14:28:00.5600484",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          -7.86200333,
+          4.25721025,
+          7.653395
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -6.106742,
+          2.552547,
+          5.97089624
+        ]
+      },
+      "duration": 4.326172,
+      "length": null,
+      "avgVelocity": 0.149763778,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 1,
+      "owner": -1,
+      "hand": 1
+    },
+    {
+      "index": 180,
+      "dateTime": "2019-08-21T14:28:08.502433",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          -6.12917948,
+          2.54547286,
+          6.01083231
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -5.83287239,
+          2.16455078,
+          5.60924435
+        ]
+      },
+      "duration": 1.12609863,
+      "length": null,
+      "avgVelocity": 0.0384482481,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 1,
+      "owner": -1,
+      "hand": 1
+    },
+    {
+      "index": 181,
+      "dateTime": "2019-08-21T14:28:18.4963697",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          -5.84202862,
+          2.17233419,
+          5.606226
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -5.358193,
+          1.70072472,
+          4.911974
+        ]
+      },
+      "duration": 1.130249,
+      "length": null,
+      "avgVelocity": 0.0410412177,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 1,
+      "owner": -1,
+      "hand": 1
+    },
+    {
+      "index": 182,
+      "dateTime": "2019-08-21T14:28:27.3218083",
+      "logType": "DrawLine",
+      "startPosition": {
+        "value": [
+          -7.679991,
+          1.58384275,
+          1.38031292
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -6.968351,
+          1.320514,
+          2.22394729
+        ]
+      },
+      "duration": 2.232384,
+      "length": 1.84898329,
+      "avgVelocity": 0.8272263,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 14,
+      "owner": 13,
+      "hand": null
+    },
+    {
+      "index": 183,
+      "dateTime": "2019-08-21T14:28:45.308435",
+      "logType": "DrawLine",
+      "startPosition": {
+        "value": [
+          -5.243861,
+          1.4759692,
+          5.131675
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -6.293447,
+          1.43815672,
+          4.0513463
+        ]
+      },
+      "duration": 4.16379452,
+      "length": 3.96750188,
+      "avgVelocity": 0.932329237,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 15,
+      "owner": 9,
+      "hand": null
+    },
+    {
+      "index": 184,
+      "dateTime": "2019-08-21T14:28:59.0164224",
+      "logType": "DrawLine",
+      "startPosition": {
+        "value": [
+          -6.98161125,
+          1.86516774,
+          3.2316432
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -6.924585,
+          1.84722662,
+          3.13515282
+        ]
+      },
+      "duration": 0.5763291,
+      "length": 0.319300473,
+      "avgVelocity": 0.5458984,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 16,
+      "owner": 14,
+      "hand": null
+    },
+    {
+      "index": 185,
+      "dateTime": "2019-08-21T14:29:22.257814",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          -5.119961,
+          1.45825791,
+          4.79152632
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -5.225312,
+          1.49923193,
+          5.02004528
+        ]
+      },
+      "duration": 1.04089355,
+      "length": null,
+      "avgVelocity": 0.16471839,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 1,
+      "owner": 9,
+      "hand": 1
+    },
+    {
+      "index": 186,
+      "dateTime": "2019-08-21T14:29:10.0715974",
+      "logType": "DrawLine",
+      "startPosition": {
+        "value": [
+          9.382446,
+          1.61131918,
+          1.48816788
+        ]
+      },
+      "endPosition": {
+        "value": [
+          9.587317,
+          4.56708145,
+          -0.154262319
+        ]
+      },
+      "duration": 14.6531181,
+      "length": 51.46362,
+      "avgVelocity": 3.56179333,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 17,
+      "owner": 13,
+      "hand": null
+    },
+    {
+      "index": 187,
+      "dateTime": "2019-08-21T14:29:24.2494383",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          -5.059517,
+          1.45674407,
+          4.623172
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -5.19987535,
+          1.49691689,
+          5.08037567
+        ]
+      },
+      "duration": 1.15258789,
+      "length": null,
+      "avgVelocity": 0.0214812588,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 1,
+      "owner": 9,
+      "hand": 1
+    },
+    {
+      "index": 188,
+      "dateTime": "2019-08-21T14:29:28.0227698",
+      "logType": "DrawLine",
+      "startPosition": {
+        "value": [
+          11.9002123,
+          2.98163247,
+          -1.96379471
+        ]
+      },
+      "endPosition": {
+        "value": [
+          11.9997616,
+          3.21139336,
+          -1.95528769
+        ]
+      },
+      "duration": 5.10762548,
+      "length": 24.803587,
+      "avgVelocity": 4.897534,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 18,
+      "owner": 16,
+      "hand": null
+    },
+    {
+      "index": 189,
+      "dateTime": "2019-08-21T14:29:33.2829572",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -10.2324123,
+          0.0,
+          5.955093
+        ]
+      },
+      "duration": null,
+      "length": 5.392241,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 190,
+      "dateTime": "2019-08-21T14:29:37.2364525",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -3.24007273,
+          0.0,
+          3.029103
+        ]
+      },
+      "duration": null,
+      "length": 7.54156351,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 191,
+      "dateTime": "2019-08-21T14:29:40.8019271",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -8.4538,
+          0.0,
+          2.228471
+        ]
+      },
+      "duration": null,
+      "length": 4.69499826,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 192,
+      "dateTime": "2019-08-21T14:29:46.2381705",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -16.8075676,
+          0.0,
+          17.7170868
+        ]
+      },
+      "duration": null,
+      "length": 17.1785431,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 193,
+      "dateTime": "2019-08-21T14:30:31.2729178",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          0.9789814,
+          1.55978262,
+          4.81609631
+        ]
+      },
+      "endPosition": {
+        "value": [
+          1.01017666,
+          0.500950336,
+          6.04119444
+        ]
+      },
+      "duration": 1.10705566,
+      "length": null,
+      "avgVelocity": 2.035557,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 0,
+      "owner": 3,
+      "hand": 1
+    },
+    {
+      "index": 194,
+      "dateTime": "2019-08-21T14:30:34.7449698",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          -7.09059668,
+          0.108027473,
+          14.8792639
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -7.32530642,
+          1.50654149,
+          20.4621944
+        ]
+      },
+      "duration": 1.31103516,
+      "length": null,
+      "avgVelocity": 4.492419,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 9,
+      "owner": 5,
+      "hand": 1
+    },
+    {
+      "index": 195,
+      "dateTime": "2019-08-21T14:30:37.3323638",
+      "logType": "GrabNodeVizmoControl",
+      "startPosition": {
+        "value": [
+          -7.182105,
+          0.2786157,
+          14.9314785
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -7.74514961,
+          3.62178922,
+          21.0250568
+        ]
+      },
+      "duration": 2.123169,
+      "length": null,
+      "avgVelocity": 3.590391,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 10,
+      "owner": 5,
+      "hand": 1
+    },
+    {
+      "index": 196,
+      "dateTime": "2019-08-21T14:30:41.769117",
+      "logType": "GrabNodeVizmoControl",
+      "startPosition": {
+        "value": [
+          -11.9674015,
+          1.42075551,
+          12.9058962
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -13.0745583,
+          1.68543613,
+          14.2458973
+        ]
+      },
+      "duration": 2.07495117,
+      "length": null,
+      "avgVelocity": 1.18305326,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 13,
+      "owner": 5,
+      "hand": 1
+    },
+    {
+      "index": 197,
+      "dateTime": "2019-08-21T14:30:52.1880407",
+      "logType": "Mute",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 7,
+      "hand": null
+    },
+    {
+      "index": 198,
+      "dateTime": "2019-08-21T14:30:54.0730666",
+      "logType": "Unmute",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 7,
+      "hand": null
+    },
+    {
+      "index": 199,
+      "dateTime": "2019-08-21T14:30:55.9271498",
+      "logType": "Solo",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 1,
+      "hand": null
+    },
+    {
+      "index": 200,
+      "dateTime": "2019-08-21T14:30:57.4363509",
+      "logType": "Unsolo",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 1,
+      "hand": null
+    },
+    {
+      "index": 201,
+      "dateTime": "2019-08-21T14:30:57.9619459",
+      "logType": "Mute",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 7,
+      "hand": null
+    },
+    {
+      "index": 202,
+      "dateTime": "2019-08-21T14:30:59.7371767",
+      "logType": "Solo",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 1,
+      "hand": null
+    },
+    {
+      "index": 203,
+      "dateTime": "2019-08-21T14:31:00.9298063",
+      "logType": "Unsolo",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 1,
+      "hand": null
+    },
+    {
+      "index": 204,
+      "dateTime": "2019-08-21T14:31:24.1846782",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          1.73995209,
+          0.0,
+          3.62428
+        ]
+      },
+      "duration": null,
+      "length": 22.6969547,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 205,
+      "dateTime": "2019-08-21T14:31:29.2381919",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          0.5927204,
+          0.0,
+          -0.702564
+        ]
+      },
+      "duration": null,
+      "length": 4.07795572,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 206,
+      "dateTime": "2019-08-21T14:32:14.9122215",
+      "logType": "Mute",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 6,
+      "hand": null
+    },
+    {
+      "index": 207,
+      "dateTime": "2019-08-21T14:32:14.4405372",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          -0.358789146,
+          1.78385437,
+          -0.131106824
+        ]
+      },
+      "endPosition": {
+        "value": [
+          1.04571712,
+          1.44018531,
+          2.31308079
+        ]
+      },
+      "duration": 1.38244629,
+      "length": null,
+      "avgVelocity": 2.5439558,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 3,
+      "owner": 12,
+      "hand": 1
+    },
+    {
+      "index": 208,
+      "dateTime": "2019-08-21T14:32:16.8588508",
+      "logType": "ReverbChange",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": 0.5999055,
+      "length": -0.442593843,
+      "avgVelocity": -0.737772644,
+      "initialValue": 0.9233984,
+      "finalValue": 0.480804533,
+      "id": 2,
+      "owner": 1,
+      "hand": null
+    },
+    {
+      "index": 209,
+      "dateTime": "2019-08-21T14:32:18.7552074",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          1.05567038,
+          0.508005857,
+          6.08237362
+        ]
+      },
+      "endPosition": {
+        "value": [
+          1.430308,
+          0.5832156,
+          6.06965828
+        ]
+      },
+      "duration": 0.5151367,
+      "length": null,
+      "avgVelocity": 0.257756233,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 0,
+      "owner": 3,
+      "hand": 1
+    },
+    {
+      "index": 210,
+      "dateTime": "2019-08-21T14:32:21.2298149",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          0.425036818,
+          1.22547054,
+          1.26544356
+        ]
+      },
+      "endPosition": {
+        "value": [
+          0.61857444,
+          1.23865819,
+          1.2640872
+        ]
+      },
+      "duration": 1.05871582,
+      "length": null,
+      "avgVelocity": 0.455338329,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 33,
+      "owner": 1,
+      "hand": 1
+    },
+    {
+      "index": 211,
+      "dateTime": "2019-08-21T14:32:23.9244756",
+      "logType": "Unmute",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 6,
+      "hand": null
+    },
+    {
+      "index": 212,
+      "dateTime": "2019-08-21T14:32:25.2464203",
+      "logType": "Unmute",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 7,
+      "hand": null
+    },
+    {
+      "index": 213,
+      "dateTime": "2019-08-21T14:32:27.4028654",
+      "logType": "Mute",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 8,
+      "hand": null
+    },
+    {
+      "index": 214,
+      "dateTime": "2019-08-21T14:32:29.771913",
+      "logType": "Mute",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 1,
+      "hand": null
+    },
+    {
+      "index": 215,
+      "dateTime": "2019-08-21T14:32:31.5868181",
+      "logType": "Unmute",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 8,
+      "hand": null
+    },
+    {
+      "index": 216,
+      "dateTime": "2019-08-21T14:32:33.1130686",
+      "logType": "Unmute",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 1,
+      "hand": null
+    },
+    {
+      "index": 217,
+      "dateTime": "2019-08-21T14:33:10.0076474",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          0.132163018,
+          1.38782907,
+          2.83972526
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -0.120205849,
+          1.47618961,
+          3.15474319
+        ]
+      },
+      "duration": 0.783447266,
+      "length": null,
+      "avgVelocity": 0.551401734,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 30,
+      "owner": 1,
+      "hand": 1
+    },
+    {
+      "index": 218,
+      "dateTime": "2019-08-21T14:33:12.3317499",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -4.855098,
+          0.0,
+          9.779918
+        ]
+      },
+      "duration": null,
+      "length": 11.2955465,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 219,
+      "dateTime": "2019-08-21T14:33:33.3589622",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          -6.627778,
+          15.6246643,
+          18.53998
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -6.837296,
+          15.2834425,
+          19.0386257
+        ]
+      },
+      "duration": 0.226074219,
+      "length": null,
+      "avgVelocity": 2.9038496,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 24,
+      "owner": 6,
+      "hand": 0
+    },
+    {
+      "index": 220,
+      "dateTime": "2019-08-21T14:33:40.0586263",
+      "logType": "HideMixer",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 221,
+      "dateTime": "2019-08-21T14:33:40.0586263",
+      "logType": "ShowTrajectoryManager",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 222,
+      "dateTime": "2019-08-21T14:33:46.0662671",
+      "logType": "HideTrajectory",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 3,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 223,
+      "dateTime": "2019-08-21T14:33:50.9736457",
+      "logType": "ShowTrajectory",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 3,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 224,
+      "dateTime": "2019-08-21T14:33:53.6999457",
+      "logType": "DeleteTrajectory",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": -1,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 225,
+      "dateTime": "2019-08-21T14:34:10.2846382",
+      "logType": "SelectTrajectory",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 5,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 226,
+      "dateTime": "2019-08-21T14:34:15.3017183",
+      "logType": "SelectTrajectory",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 7,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 227,
+      "dateTime": "2019-08-21T14:34:18.9976644",
+      "logType": "DeleteTrajectory",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": -1,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 228,
+      "dateTime": "2019-08-21T14:34:28.4029826",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          2.22748717E-08,
+          0.260113358,
+          -5.41834844E-09
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -0.00182401552,
+          0.324700117,
+          -0.00573734846
+        ]
+      },
+      "duration": 0.07714844,
+      "length": null,
+      "avgVelocity": 0.5323089,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 0,
+      "owner": 13,
+      "hand": 1
+    },
+    {
+      "index": 229,
+      "dateTime": "2019-08-21T14:34:28.6583003",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          -1.03313358E-08,
+          0.2600417,
+          -3.82754362E-09
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -0.994546652,
+          5.520215,
+          0.493645936
+        ]
+      },
+      "duration": 1.052002,
+      "length": null,
+      "avgVelocity": 5.077141,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 0,
+      "owner": 13,
+      "hand": 1
+    },
+    {
+      "index": 230,
+      "dateTime": "2019-08-21T14:34:30.7371371",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          1.10223928E-08,
+          0.260219723,
+          -2.22280949E-09
+        ]
+      },
+      "endPosition": {
+        "value": [
+          0.56649977,
+          5.169902,
+          1.25040209
+        ]
+      },
+      "duration": 0.9628906,
+      "length": null,
+      "avgVelocity": 5.33741,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 0,
+      "owner": 13,
+      "hand": 1
+    },
+    {
+      "index": 231,
+      "dateTime": "2019-08-21T14:34:32.6583122",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          -1.05732969E-08,
+          0.260394067,
+          -1.8415987E-08
+        ]
+      },
+      "endPosition": {
+        "value": [
+          1.95733333,
+          0.384660423,
+          1.31638944
+        ]
+      },
+      "duration": 1.085083,
+      "length": null,
+      "avgVelocity": 2.32568669,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 0,
+      "owner": 13,
+      "hand": 1
+    },
+    {
+      "index": 232,
+      "dateTime": "2019-08-21T14:34:34.626251",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          2.19720331E-09,
+          0.260205179,
+          6.159202E-10
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -3.075259,
+          0.7163371,
+          -1.05708373
+        ]
+      },
+      "duration": 0.8925781,
+      "length": null,
+      "avgVelocity": 3.84358525,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 0,
+      "owner": 13,
+      "hand": 1
+    },
+    {
+      "index": 233,
+      "dateTime": "2019-08-21T14:34:50.4309463",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          -11.2936773,
+          4.8656764,
+          -4.48314571
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -15.5304232,
+          3.87082028,
+          -1.99104035
+        ]
+      },
+      "duration": 1.39770508,
+      "length": null,
+      "avgVelocity": 4.23042727,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 12,
+      "owner": 10,
+      "hand": 1
+    },
+    {
+      "index": 234,
+      "dateTime": "2019-08-21T14:34:52.6433675",
+      "logType": "GrabNodeVizmoControl",
+      "startPosition": {
+        "value": [
+          -11.2405148,
+          4.90134,
+          -4.57120371
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -14.4179192,
+          1.76455188,
+          -3.24445868
+        ]
+      },
+      "duration": 1.58483887,
+      "length": null,
+      "avgVelocity": 3.1304462,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 13,
+      "owner": 10,
+      "hand": 1
+    },
+    {
+      "index": 235,
+      "dateTime": "2019-08-21T14:34:54.9750055",
+      "logType": "GrabNodeVizmoAnchor",
+      "startPosition": {
+        "value": [
+          -7.7527566,
+          3.06867981,
+          -1.49838436
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -11.4018183,
+          3.15116858,
+          0.125892431
+        ]
+      },
+      "duration": 0.862915039,
+      "length": null,
+      "avgVelocity": 4.645682,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 39,
+      "owner": 10,
+      "hand": 1
+    },
+    {
+      "index": 236,
+      "dateTime": "2019-08-21T14:34:56.6308367",
+      "logType": "GrabNodeVizmoControl",
+      "startPosition": {
+        "value": [
+          -7.763436,
+          3.09796357,
+          -1.40422714
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -11.9807615,
+          6.80804253,
+          2.31355715
+        ]
+      },
+      "duration": 2.11364746,
+      "length": null,
+      "avgVelocity": 4.06731462,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 40,
+      "owner": 10,
+      "hand": 1
+    },
+    {
+      "index": 237,
+      "dateTime": "2019-08-21T14:35:03.8228106",
+      "logType": "SelectTrajectory",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 238,
+      "dateTime": "2019-08-21T14:35:06.1099328",
+      "logType": "SelectTrajectory",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 1,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 239,
+      "dateTime": "2019-08-21T14:35:06.7831319",
+      "logType": "HideTrajectory",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 1,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 240,
+      "dateTime": "2019-08-21T14:35:24.2519627",
+      "logType": "ShowTrajectory",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 1,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 241,
+      "dateTime": "2019-08-21T14:35:30.4307561",
+      "logType": "HideTrajectory",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 1,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 242,
+      "dateTime": "2019-08-21T14:35:33.8918743",
+      "logType": "SelectTrajectory",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 4,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 243,
+      "dateTime": "2019-08-21T14:35:35.0213638",
+      "logType": "HideTrajectory",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 4,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 244,
+      "dateTime": "2019-08-21T14:35:47.6638793",
+      "logType": "SelectTrajectory",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 11,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 245,
+      "dateTime": "2019-08-21T14:35:51.629631",
+      "logType": "HideTrajectory",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 11,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 246,
+      "dateTime": "2019-08-21T14:35:54.8577902",
+      "logType": "SelectTrajectory",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 12,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 247,
+      "dateTime": "2019-08-21T14:35:59.0585931",
+      "logType": "SelectTrajectory",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 13,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 248,
+      "dateTime": "2019-08-21T14:36:03.6375683",
+      "logType": "DeleteTrajectory",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": -1,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 249,
+      "dateTime": "2019-08-21T14:36:22.6041227",
+      "logType": "SelectTrajectory",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 1,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 250,
+      "dateTime": "2019-08-21T14:36:23.7977613",
+      "logType": "SelectTrajectory",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 5,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 251,
+      "dateTime": "2019-08-21T14:36:36.3202191",
+      "logType": "DeleteTrajectory",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": -1,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 252,
+      "dateTime": "2019-08-21T14:36:39.6926979",
+      "logType": "HideTrajectoryManager",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 253,
+      "dateTime": "2019-08-21T14:36:39.6926979",
+      "logType": "ShowMixer",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 254,
+      "dateTime": "2019-08-21T14:36:40.4885432",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -5.783255,
+          0.0,
+          13.346859
+        ]
+      },
+      "duration": null,
+      "length": 3.53890467,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 255,
+      "dateTime": "2019-08-21T14:36:52.1157765",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          -17.88584,
+          4.088085,
+          1.40798545
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -17.4587822,
+          4.088748,
+          2.5503335
+        ]
+      },
+      "duration": 2.40161133,
+      "length": null,
+      "avgVelocity": 1.16658211,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 7,
+      "owner": -1,
+      "hand": 1
+    },
+    {
+      "index": 256,
+      "dateTime": "2019-08-21T14:36:55.0670091",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          -17.4182854,
+          4.233891,
+          2.404268
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -10.21176,
+          5.46642447,
+          9.010956
+        ]
+      },
+      "duration": 4.342285,
+      "length": null,
+      "avgVelocity": 1.71714854,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 7,
+      "owner": -1,
+      "hand": 1
+    },
+    {
+      "index": 257,
+      "dateTime": "2019-08-21T14:37:41.5757336",
+      "logType": "DrawLine",
+      "startPosition": {
+        "value": [
+          -8.746734,
+          4.04001665,
+          11.296423
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -8.723408,
+          4.1410675,
+          11.415493
+        ]
+      },
+      "duration": 0.0869154,
+      "length": 0.162804782,
+      "avgVelocity": 1.605234,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 19,
+      "owner": 15,
+      "hand": null
+    },
+    {
+      "index": 258,
+      "dateTime": "2019-08-21T14:37:53.9974077",
+      "logType": "DrawLine",
+      "startPosition": {
+        "value": [
+          -7.81417751,
+          2.78370667,
+          12.253232
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -7.903771,
+          2.83243132,
+          12.4016953
+        ]
+      },
+      "duration": 0.714026451,
+      "length": 0.40413028,
+      "avgVelocity": 0.559455454,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 20,
+      "owner": 3,
+      "hand": null
+    },
+    {
+      "index": 259,
+      "dateTime": "2019-08-21T14:38:01.8061797",
+      "logType": "DrawLine",
+      "startPosition": {
+        "value": [
+          -7.49928,
+          2.7091403,
+          11.62527
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -7.422904,
+          2.80698633,
+          11.597003
+        ]
+      },
+      "duration": 0.882523358,
+      "length": 0.433431864,
+      "avgVelocity": 0.485591561,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 21,
+      "owner": 9,
+      "hand": null
+    },
+    {
+      "index": 260,
+      "dateTime": "2019-08-21T14:38:05.2699469",
+      "logType": "GrabAudioObject",
+      "startPosition": {
+        "value": [
+          -10.2287512,
+          5.44838333,
+          9.041402
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -8.568237,
+          4.147631,
+          11.5348759
+        ]
+      },
+      "duration": 3.81848145,
+      "length": null,
+      "avgVelocity": 0.5765761,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 7,
+      "owner": -1,
+      "hand": 1
+    },
+    {
+      "index": 261,
+      "dateTime": "2019-08-21T14:38:20.4468854",
+      "logType": "Mute",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 7,
+      "hand": null
+    },
+    {
+      "index": 262,
+      "dateTime": "2019-08-21T14:38:27.2637123",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -2.91729927,
+          0.0,
+          21.19653
+        ]
+      },
+      "duration": null,
+      "length": 7.900376,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 263,
+      "dateTime": "2019-08-21T14:38:28.5639362",
+      "logType": "DopplerChange",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": 1.03179264,
+      "length": 0.160478,
+      "avgVelocity": 0.15553318,
+      "initialValue": 0.533986151,
+      "finalValue": 0.694464147,
+      "id": 1,
+      "owner": 7,
+      "hand": null
+    },
+    {
+      "index": 264,
+      "dateTime": "2019-08-21T14:38:31.3378514",
+      "logType": "Solo",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 7,
+      "hand": null
+    },
+    {
+      "index": 265,
+      "dateTime": "2019-08-21T14:38:28.4133395",
+      "logType": "DrawLine",
+      "startPosition": {
+        "value": [
+          -5.642752,
+          1.60503876,
+          2.01217771
+        ]
+      },
+      "endPosition": {
+        "value": [
+          -5.73116827,
+          1.86154807,
+          1.276265
+        ]
+      },
+      "duration": 6.132261,
+      "length": 39.0944824,
+      "avgVelocity": 6.385277,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 22,
+      "owner": 17,
+      "hand": null
+    },
+    {
+      "index": 266,
+      "dateTime": "2019-08-21T14:38:35.0915941",
+      "logType": "Unsolo",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 7,
+      "hand": null
+    },
+    {
+      "index": 267,
+      "dateTime": "2019-08-21T14:38:35.7158888",
+      "logType": "DopplerChange",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": 0.7595967,
+      "length": 0.301774323,
+      "avgVelocity": 0.3972823,
+      "initialValue": 0.694464147,
+      "finalValue": 0.99623847,
+      "id": 1,
+      "owner": 7,
+      "hand": null
+    },
+    {
+      "index": 268,
+      "dateTime": "2019-08-21T14:38:37.1356119",
+      "logType": "Solo",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 7,
+      "hand": null
+    },
+    {
+      "index": 269,
+      "dateTime": "2019-08-21T14:38:41.0442838",
+      "logType": "Unsolo",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 7,
+      "hand": null
+    },
+    {
+      "index": 270,
+      "dateTime": "2019-08-21T14:38:43.2350849",
+      "logType": "VolumetricRadiusChange",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": 0.9036872,
+      "length": 0.134909928,
+      "avgVelocity": 0.149288312,
+      "initialValue": 0.816571,
+      "finalValue": 0.9514809,
+      "id": 3,
+      "owner": 7,
+      "hand": null
+    },
+    {
+      "index": 271,
+      "dateTime": "2019-08-21T14:38:44.8649117",
+      "logType": "Solo",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 7,
+      "hand": null
+    },
+    {
+      "index": 272,
+      "dateTime": "2019-08-21T14:38:46.696008",
+      "logType": "Unsolo",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 7,
+      "hand": null
+    },
+    {
+      "index": 273,
+      "dateTime": "2019-08-21T14:38:56.0461154",
+      "logType": "Mute",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 6,
+      "hand": null
+    },
+    {
+      "index": 274,
+      "dateTime": "2019-08-21T14:38:58.7047272",
+      "logType": "Solo",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 6,
+      "hand": null
+    },
+    {
+      "index": 275,
+      "dateTime": "2019-08-21T14:38:59.9785165",
+      "logType": "Unsolo",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 6,
+      "hand": null
+    },
+    {
+      "index": 276,
+      "dateTime": "2019-08-21T14:39:00.3804422",
+      "logType": "Unmute",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 6,
+      "hand": null
+    },
+    {
+      "index": 277,
+      "dateTime": "2019-08-21T14:39:01.6088161",
+      "logType": "Solo",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 6,
+      "hand": null
+    },
+    {
+      "index": 278,
+      "dateTime": "2019-08-21T14:39:04.8042473",
+      "logType": "Unsolo",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 6,
+      "hand": null
+    },
+    {
+      "index": 279,
+      "dateTime": "2019-08-21T14:39:07.4945356",
+      "logType": "Unmute",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 7,
+      "hand": null
+    },
+    {
+      "index": 280,
+      "dateTime": "2019-08-21T14:39:09.5172287",
+      "logType": "Mute",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 7,
+      "hand": null
+    },
+    {
+      "index": 281,
+      "dateTime": "2019-08-21T14:39:10.812296",
+      "logType": "Mute",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 6,
+      "hand": null
+    },
+    {
+      "index": 282,
+      "dateTime": "2019-08-21T14:39:22.3520337",
+      "logType": "Mute",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 4,
+      "hand": null
+    },
+    {
+      "index": 283,
+      "dateTime": "2019-08-21T14:39:27.4569302",
+      "logType": "ReverbChange",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": 2.02050662,
+      "length": 0.9602802,
+      "avgVelocity": 0.475267023,
+      "initialValue": 0.0,
+      "finalValue": 0.9602802,
+      "id": 2,
+      "owner": 4,
+      "hand": null
+    },
+    {
+      "index": 284,
+      "dateTime": "2019-08-21T14:39:34.8388024",
+      "logType": "HideMixer",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 285,
+      "dateTime": "2019-08-21T14:39:34.8398",
+      "logType": "ShowTrajectoryManager",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 286,
+      "dateTime": "2019-08-21T14:39:35.8899957",
+      "logType": "HideTrajectoryManager",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 287,
+      "dateTime": "2019-08-21T14:39:35.8899957",
+      "logType": "HideTrajectoryManager",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 288,
+      "dateTime": "2019-08-21T14:39:35.8899957",
+      "logType": "HideMixer",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 289,
+      "dateTime": "2019-08-21T14:39:36.9290501",
+      "logType": "ShowTrajectoryManager",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 290,
+      "dateTime": "2019-08-21T14:39:57.5482665",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          0.0238027573,
+          0.0,
+          0.6773491
+        ]
+      },
+      "duration": null,
+      "length": 20.0678825,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 291,
+      "dateTime": "2019-08-21T14:40:01.6138848",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          6.524347,
+          0.0,
+          1.32852459
+        ]
+      },
+      "duration": null,
+      "length": 6.28240967,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 292,
+      "dateTime": "2019-08-21T14:40:05.3338712",
+      "logType": "Teleport",
+      "startPosition": {
+        "value": [
+          0.0,
+          -0.05,
+          0.0
+        ]
+      },
+      "endPosition": {
+        "value": [
+          0.453609,
+          0.0,
+          -1.46280253
+        ]
+      },
+      "duration": null,
+      "length": 6.38050652,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": null,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 293,
+      "dateTime": "2019-08-21T14:40:07.9704298",
+      "logType": "StopAudio",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": null,
+      "hand": null
+    },
+    {
+      "index": 294,
+      "dateTime": "2019-08-21T14:40:17.8891817",
+      "logType": "Unmute",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 4,
+      "hand": null
+    },
+    {
+      "index": 295,
+      "dateTime": "2019-08-21T14:40:17.8891817",
+      "logType": "Unmute",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 6,
+      "hand": null
+    },
+    {
+      "index": 296,
+      "dateTime": "2019-08-21T14:40:17.8891817",
+      "logType": "Unmute",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": 7,
+      "hand": null
+    },
+    {
+      "index": 297,
+      "dateTime": "2019-08-21T14:40:22.7136876",
+      "logType": "StartAudio",
+      "startPosition": null,
+      "endPosition": null,
+      "duration": null,
+      "length": null,
+      "avgVelocity": null,
+      "initialValue": null,
+      "finalValue": null,
+      "id": 2,
+      "owner": null,
+      "hand": null
+    }
+  ],
+  "Counts": [
+    {
+      "index": 0,
+      "logType": "Void",
+      "count": null
+    },
+    {
+      "index": 1,
+      "logType": "Teleport",
+      "count": 44
+    },
+    {
+      "index": 2,
+      "logType": "DrawLine",
+      "count": 22
+    },
+    {
+      "index": 3,
+      "logType": "GrabAudioObject",
+      "count": 46
+    },
+    {
+      "index": 4,
+      "logType": "GrabNodeVizmoAnchor",
+      "count": 45
+    },
+    {
+      "index": 5,
+      "logType": "GrabNodeVizmoControl",
+      "count": 7
+    },
+    {
+      "index": 6,
+      "logType": "StartAudio",
+      "count": 6
+    },
+    {
+      "index": 7,
+      "logType": "StopAudio",
+      "count": 5
+    },
+    {
+      "index": 8,
+      "logType": "Mute",
+      "count": 17
+    },
+    {
+      "index": 9,
+      "logType": "Unmute",
+      "count": 17
+    },
+    {
+      "index": 10,
+      "logType": "Solo",
+      "count": 17
+    },
+    {
+      "index": 11,
+      "logType": "Unsolo",
+      "count": null
+    },
+    {
+      "index": 12,
+      "logType": "VolumeChange",
+      "count": 1
+    },
+    {
+      "index": 13,
+      "logType": "DopplerChange",
+      "count": 3
+    },
+    {
+      "index": 14,
+      "logType": "VolumetricRadiusChange",
+      "count": 2
+    },
+    {
+      "index": 15,
+      "logType": "ReverbChange",
+      "count": 5
+    },
+    {
+      "index": 16,
+      "logType": "SelectTrajectory",
+      "count": 17
+    },
+    {
+      "index": 17,
+      "logType": "DeleteTrajectory",
+      "count": 4
+    },
+    {
+      "index": 18,
+      "logType": "HideTrajectory",
+      "count": 5
+    },
+    {
+      "index": 19,
+      "logType": "ShowTrajectory",
+      "count": 2
+    },
+    {
+      "index": 20,
+      "logType": "ShowMixer",
+      "count": 3
+    },
+    {
+      "index": 21,
+      "logType": "HideMixer",
+      "count": 4
+    },
+    {
+      "index": 22,
+      "logType": "ShowTrajectoryManager",
+      "count": 4
+    },
+    {
+      "index": 23,
+      "logType": "HideTrajectoryManager",
+      "count": 4
+    },
+    {
+      "index": 24,
+      "logType": "OtherUserVisible",
+      "count": null
+    },
+    {
+      "index": 25,
+      "logType": "PlayerConnect",
+      "count": null
+    },
+    {
+      "index": 26,
+      "logType": "ServerStart",
+      "count": null
+    }
+  ]
+}
