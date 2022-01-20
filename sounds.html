@@ -1,42 +1,52 @@
 <!DOCTYPE html>
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Title</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-    body {
-        font-family: Arial, Helvetica, sans-serif;
-    }
 
-    .navbar {
-        width: 100%;
-        background-color: #555;
-        overflow: auto;
-    }
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Invoke Sounds</title>
 
-    .navbar a {
-        float: left;
-        padding: 12px;
-        color: white;
-        text-decoration: none;
-        font-size: 17px;
-    }
-
-    .navbar a:hover {
-        background-color: #000;
-    }
-
-    .active {
-        background-color: #04AA6D;
-    }
-
-    @media screen and (max-width: 500px) {
-        .navbar a {
-            float: none;
-            display: block;
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
         }
-    }
-</style>
+
+        .navbar {
+            width: 100%;
+            background-color: #555;
+            overflow: auto;
+        }
+
+        .navbar a {
+            float: left;
+            padding: 12px;
+            color: white;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .navbar a:hover {
+            background-color: #000;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        @media screen and (max-width: 500px) {
+            .navbar a {
+                float: none;
+                display: block;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="wave-style.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://unpkg.com/wavesurfer.js"></script>
+    <script src="playlist.js"></script>
+</head>
 
 <body>
     <div class="navbar">
@@ -49,9 +59,91 @@
         <a href="template.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
     </div>
 
-    <h1>Heading</h1>
-    <!-- <h2>Responsive Navigation Bar with Icons</h2> -->
-    <p>Content</p>
+    <h1>Sounds used in task</h1>
+
+    <div class="container">
+        <p>Sound files used in task, mix is a composite of all individual sound objects. All are stereo MP3s from original WAVs</p>
+
+        <div id="demo">
+            <div class="row" style="margin: 30px 0">
+                <div class="col-sm-10">
+                    <div id="waveform">
+                        <!-- Here be waveform -->
+                    </div>
+                </div>
+
+                <div class="col-sm-2">
+                    <button class="btn btn-success btn-block" id="playPause">
+                        <span id="play">
+                            <i class="fa fa-fw fa-play"></i>
+                            Play
+                        </span>
+
+                        <span id="pause" style="display: none">
+                            <i class="fa fa-fw fa-pause"></i>
+                            Pause
+                        </span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="list-group" id="playlist">
+                <a href="assets/audio/mix.mp3" class="list-group-item">
+                    <i class="fa fa-fw fa-play"></i>
+                    Full Mix
+                    <span class="badge">0:34</span>
+                </a>
+
+                <a href="assets/audio/TonalSong 1 Glass.mp3" class="list-group-item">
+                    <i class="fa fa-fw fa-play"></i>
+                    1 Glass
+                    <span class="badge">0:34</span>
+                </a>
+
+                <a href="assets/audio/TonalSong 2 Gong.mp3" class="list-group-item">
+                    <i class="fa fa-fw fa-play"></i>
+                    2 Gong
+                    <span class="badge badge-info">0:34</span>
+                </a>
+
+                <a href="assets/audio/TonalSong 3 Insect.mp3" class="list-group-item">
+                    <i class="fa fa-fw fa-play"></i>
+                    3 Insect
+                    <span class="badge badge-info">0:34</span>
+                </a>
+
+                <a href="assets/audio/TonalSong 4 Alien Engine.mp3" class="list-group-item">
+                    <i class="fa fa-fw fa-play"></i>
+                    4 Alien Engine
+                    <span class="badge badge-info">0:34</span>
+                </a>
+
+                <a href="assets/audio/TonalSong 5 Sandman.mp3" class="list-group-item">
+                    <i class="fa fa-fw fa-play"></i>
+                    5 Sandman
+                    <span class="badge badge-info">0:34</span>
+                </a>
+
+                <a href="assets/audio/TonalSong 6 Drifting Fly.mp3" class="list-group-item">
+                    <i class="fa fa-fw fa-play"></i>
+                    6 Drifting Fly
+                    <span class="badge badge-info">0:34</span>
+                </a>
+
+                <a href="assets/audio/TonalSong 7 Voice Fragment.mp3" class="list-group-item">
+                    <i class="fa fa-fw fa-play"></i>
+                    7 Voice Fragment
+                    <span class="badge badge-info">0:34</span>
+                </a>
+
+                <a href="assets/audio/TonalSong 8 String.mp3" class="list-group-item">
+                    <i class="fa fa-fw fa-play"></i>
+                    8 String
+                    <span class="badge badge-info">0:34</span>
+                </a>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
