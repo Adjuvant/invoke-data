@@ -1,82 +1,83 @@
 <!DOCTYPE html>
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Invoke Study Data Supplement</title>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Invoke Study Data Supplement</title>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
 
-<!-- Method to inject html, used for nav bar -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<script src="jquery.js"></script> 
-    <script> 
-    $(function(){
-      $("#includedContent").load("nav.html"); 
-    });
-</script> 
+        <!-- Method to inject html, used for nav bar -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="jquery.js"></script> 
+            <script> 
+            $(function(){
+            $("#includedContent").load("nav.html"); 
+            });
+        </script> 
+        <!-- Nav bar style sheet -->
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
 
+            .navbar {
+                width: 100%;
+                background-color: #555;
+                overflow: auto;
+            }
 
-<style>
-    body {
-        font-family: Arial, Helvetica, sans-serif;
-    }
+            .navbar a {
+                float: left;
+                padding: 12px;
+                color: white;
+                text-decoration: none;
+                font-size: 17px;
+            }
 
-    .navbar {
-        width: 100%;
-        background-color: #555;
-        overflow: auto;
-    }
+            .navbar a:hover {
+                background-color: #000;
+            }
 
-    .navbar a {
-        float: left;
-        padding: 12px;
-        color: white;
-        text-decoration: none;
-        font-size: 17px;
-    }
+            .active {
+                background-color: #04AA6D;
+            }
 
-    .navbar a:hover {
-        background-color: #000;
-    }
+            @media screen and (max-width: 500px) {
+                .navbar a {
+                    float: none;
+                    display: block;
+                }
+            }
+        </style>
+    </head>
 
-    .active {
-        background-color: #04AA6D;
-    }
+    <body>
+        <div class="navbar" id="includedContent"></div>
 
-    @media screen and (max-width: 500px) {
-        .navbar a {
-            float: none;
-            display: block;
-        }
-    }
-</style>
+        <article class="w3-container w3-indigo w3-margin">
+            <h1>Invoke Study Data Supplement</h1>
+            
+            <p>Open data supplement for study of Invoke, a social VR spatial sound design tool.</p>
 
+            <p>
+                Invoke offers a new way of working with spatial audio. As a spatial audio production tool,  
+                it explores different ways to embody audio workflow. The main feature of the app is a  
+                voice-based drawing tool that is used to make trajectories for spatial audio objects.
+            </p>
+        </article>
 
-<body>
-    <div class="navbar" id="includedContent"></div>
+        <section class="w3-container w3-margin">
+            <p>The data supplement contains the following:</p>
+            <ul>
+                <li>System design and implementation details</li>
+                <li>Participant demographics</li>
+                <li>Sounds used in task</li>
+                <li>Data files used in data analysis</li>
+                <li>Mixed method data analysis</li>
+            </ul>
+        </section>
 
-    <div class="w3-container w3-indigo">
-        <h1>Invoke Study Data Supplement</h1>
-        
-        <p>Open data supplement for study of Invoke, a social VR spatial sound design tool.</p>
-
-        <p>
-            Invoke offers a new way of working with spatial audio. As a spatial audio production tool,  
-            it explores different ways to embody audio workflow. The main feature of the app is a  
-            voice-based drawing tool that is used to make trajectories for spatial audio objects.
-        </p>
-    </div>
-    <div class="w3-container">
-        <p>The data supplement contains the following:</p>
-        <ul>
-            <li>System design and implementation details</li>
-            <li>Participant demographics</li>
-            <li>Sounds used in task</li>
-            <li>Data files used in data analysis</li>
-            <li>Mixed method data analysis</li>
-        </ul>
-    </div>
-
-</body>
+    </body>
 
 </html>
