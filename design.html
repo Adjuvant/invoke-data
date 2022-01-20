@@ -1,57 +1,168 @@
 <!DOCTYPE html>
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>System Design and Implementation</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-    body {
-        font-family: Arial, Helvetica, sans-serif;
-    }
 
-    .navbar {
-        width: 100%;
-        background-color: #555;
-        overflow: auto;
-    }
-
-    .navbar a {
-        float: left;
-        padding: 12px;
-        color: white;
-        text-decoration: none;
-        font-size: 17px;
-    }
-
-    .navbar a:hover {
-        background-color: #000;
-    }
-
-    .active {
-        background-color: #04AA6D;
-    }
-
-    @media screen and (max-width: 500px) {
-        .navbar a {
-            float: none;
-            display: block;
-        }
-    }
-</style>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>System Design and Implementation</title>
+    <!-- Method to inject html, used for nav bar -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="jquery.js"></script>
+    <script>
+        $(function() {
+            $("#injectNav").load("nav.html");
+        });
+    </script>
+    <link rel="stylesheet" href="nav-style.css">
+</head>
 
 <body>
-    <div class="navbar">
-        <a href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
-        <a class="active" href="design.html"><i class="fa fa-fw fa-gears"></i> System Design</a>
-        <a href="demographics.html"><i class="fa fa-fw fa-group"></i> Participants</a>
-        <a href="sounds.html"><i class="fa fa-fw fa-headphones"></i> Sounds</a>
-        <a href="data.html"><i class="fa fa-fw fa-file"></i> Data Files</a>
-        <a href="analysis.html"><i class="fa fa-fw fa-bar-chart"></i> Data Analysis</a>
-        <a href="template.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
-    </div>
+    <div class="navbar" id="injectNav"></div>
 
-    <h1>Heading</h1>
-    <!-- <h2>Responsive Navigation Bar with Icons</h2> -->
-    <p>Content</p>
+    <header class="w3-container w3-indigo w3-margin w3-center">
+        <h1>System Design and Implementation</h1>
+    </header>
+    <div class="w3-col" style="width:20%">
+        <p></p>
+    </div>
+    <div class="w3-col" style="width:60%">
+        <article class="w3-container w3-margin">
+
+            <p>Invoke offers a new way of working with spatial audio. As a spatial audio production tool, it explores different ways to embody audio workflow. The main feature of the app is a voice-based drawing tool that is used to make trajectories for
+                spatial audio objects.</p>
+            <h2>Voice Drawing</h2>
+            <div class="w3-container">
+                <p>The interaction dynamic for drawing trajectories is a new way to work with spatial audio. Combining input from the voice and hand provides a continuous space-time method of composition. Voice Drawing allows detailed production of trajectories
+                    to spatially and temporally mix tracks. For a user, you position a "pen" in virtual space, pull the controller trigger, make a sound with your voice, and build shapes in space. After creating a Voice Sketch, the line data transforms
+                    into a control point based bezier curve, a trajectory, that retains the volume information of the voice input. Then, by placing an audio object on a trajectory, an audio object's volume is automated based on the recorded volume of
+                    the voice.</p>
+                <p>When using Voice Drawing collaboratively, the volume information from both collaborators is used to draw each line. This means two lines could be drawn with the same volume information in two different places. But also that when you or
+                    your partner draws a line, the resulting trajectory is not totally controlled by you.</p>
+
+                <div class="w3-row">
+                    <div class="w3-col s6">
+                        <div>
+                            <img class="w3-image" src="https://layeraudio.files.wordpress.com/2019/08/penangle.png?w=880" alt="Pen" width="880" height="518" />
+                            <div class="w3-container w3-center">
+                                <p>Pen active before drawing</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="w3-col s6">
+                        <div>
+                            <img class="w3-image" src="https://layeraudio.files.wordpress.com/2019/08/freaky.png?w=880" alt="Voice drawing pre-trajectory render" width="880" height="517" />
+                            <div class="w3-container w3-center">
+                                <p>Voice drawing pre-trajectory render
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="w3-row">
+                    <div class="w3-col s12">
+                        <div>
+                            <img class="w3-image" src="https://layeraudio.files.wordpress.com/2019/08/trajectoryactive.png?w=880" alt="Trajectory" width="880" height="519" />
+                            <div class="w3-container w3-center">
+                                <p>Trajectory, a voice drawing converted to a bezier line. Colour is from the audio source that is attached to it.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Object Interaction</h2>
+
+            <div class="w3-half w3-container">
+                <div class="w3-card">
+                    <img class="w3-image" src="https://raw.githubusercontent.com/wiki/hecomi/VrGrabber/grabber2.PNG" alt="Direct Interaction" width="1979" height="1112" />
+                    <div class="w3-container w3-center">
+                        <h4>Direct Interaction</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-half w3-container">
+                <div class="w3-card">
+                    <img class="w3-image" src="https://raw.githubusercontent.com/wiki/hecomi/VrGrabber/grabber3.PNG" alt="Indirect Interaction" width="1980" height="1106" />
+                    <div class="w3-container w3-center">
+                        <h4>Indirect Interaction</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-container">
+                <p>Traditionally object selection and manipulation in VR is considered either <a href="https://medium.com/usable-or-not/direct-v-indirect-manipulation-in-vr-b7c5c4f09c55" target="_blank" rel="noopener">direct or indirect</a>. Direct interaction
+                    uses a natural metaphor, you grab a thing close enough to touch, like you would a cup or a ball. Indirect interaction uses a form of mediation to allow action at a distance, like picking up a car from a crane. Each of these methods
+                    gives different sensations of embodiment but also changes how to design spaces for action.</p>
+
+                <p>Invoke uses both direct and indirect action; this allows precise control but also extended interaction spaces. For the user, laser-based object interaction sits on top of direct spatial selection and manipulation. What this means is you
+                    can either walk up to an object and grab it or, from a distance, aim and grab an object. When holding objects, you can pull them closer or push them further away using controls on the hardware VR controller.</p>
+                <p>The system is built on top of the VR control system by <a href="https://github.com/hecomi" target="_blank" rel="noopener">Hecomi</a>, <a href="https://github.com/hecomi/VrGrabber" target="_blank" rel="noopener">VRGrabber</a>.</p>
+            </div>
+
+
+            <h2>Menus</h2>
+            <div class="w3-container">
+                <p>While it would be possible to put all functionality "in-the-world", it was decided to use a set of Menus to manage the various options and abstractions. There are three main menu types:</p>
+                <ul>
+                    <li>Mixer - a timeline and audio mixer to control gain, solo, mute functions and spatial parameters like Doppler, Reverb Send, and Volumetric Radius.</li>
+                    <li>Trajectory Manager - a means to - overview, toggle visibility, delete - trajectories.</li>
+                    <li>Hand Menu - a way to manage world space menus and other global settings.</li>
+                </ul>
+
+                <div class="w3-row">
+                    <div class="w3-col s12">
+                        <div>
+                            <img class="w3-image" src="https://layeraudio.files.wordpress.com/2019/08/mixer.png?w=880" alt="" width="880" height="495" />
+                            <div class="w3-container w3-center">
+                                <p>Invoke VR audio mixer panel</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <p>This system is built on top of some great work by <a href="http://aestheticinteractive.com/" target="_blank" rel="noopener">Aesthetic Interactive's</a> <a href="https://github.com/aestheticinteractive/Hover-UI-Kit" target="_blank" rel="noopener">Hover UI Kit</a>.</p>
+            </div>
+
+            <h2>Embodiment</h2>
+            <div class="w3-container">
+                <p>As a shared VR experience, the mapping of your body to the virtual space is an important feature. Using an Inverse Kinematics system a VR puppet maps to your movements. This system uses the HMD, controllers and a tracking puck attached
+                    to your waist.</p>
+                <div>
+                    <img class="w3-image" src="https://layeraudio.files.wordpress.com/2019/08/body.png?w=880" alt="Avatar" width="880" height="519" />
+                    <div class="w3-container w3-center">
+                        <p>Avatar used for each player</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <h2>Assorted Features</h2>
+            <h3>Transparency</h3>
+            <div class="w3-container">
+                <p>The picture highlights that the level of opacity on an object has meaning. For instance, when an audio source is muted, the object has a see-through quality. Also to manage the complexity of the space, the trajectory lines can be made
+                    semi-transparent, this also removes access to control points.</p>
+
+                <div>
+                    <img class="w3-image" src="https://layeraudio.files.wordpress.com/2019/08/transparency.png" alt="" width="747" height="421" />
+                    <div class="w3-container w3-center">
+                        <p>Transparency of objects and lines</p>
+                    </div>
+                </div>
+            </div>
+            <h3>Getting Around and staying in touch</h3>
+            <p>As the interaction space provided is quite large, a teleport system was added. Also as a shared experience, spatialised voice communication system is available.</p>
+            <h3>Non-realistic scaling</h3>
+            <p>Given the size of the interaction space, objects change size depending on their distance from the user, getting bigger the farther away they get. This does introduce a subtle set of issues but gains improved usability for selection and manipulation
+                from a distance. One issue is the perceptual confusion of pushing something into the distance and it gets bigger. The other issue is that for each user, there is asymmetric perceptual information about space and objects.</p>
+        </article>
+    </div>
+    <div class="w3-col" style="width:20%">
+        <p></p>
+    </div>
 </body>
 
 </html>

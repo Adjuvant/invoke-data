@@ -4,62 +4,32 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Invoke Sounds</title>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        .navbar {
-            width: 100%;
-            background-color: #555;
-            overflow: auto;
-        }
-
-        .navbar a {
-            float: left;
-            padding: 12px;
-            color: white;
-            text-decoration: none;
-            font-size: 17px;
-        }
-
-        .navbar a:hover {
-            background-color: #000;
-        }
-
-        .active {
-            background-color: #04AA6D;
-        }
-
-        @media screen and (max-width: 500px) {
-            .navbar a {
-                float: none;
-                display: block;
-            }
-        }
-    </style>
+    <!-- Wavesurfer reqs -->
     <link rel="stylesheet" href="wave-style.css">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
 
     <script src="https://unpkg.com/wavesurfer.js"></script>
     <script src="playlist.js"></script>
+    <!-- Method to inject html, used for nav bar -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="jquery.js"></script>
+    <script>
+        $(function() {
+            $("#injectNav").load("nav.html");
+        });
+    </script>
+    <link rel="stylesheet" href="nav-style.css">
+
 </head>
 
 <body>
-    <div class="navbar">
-        <a href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
-        <a href="design.html"><i class="fa fa-fw fa-gears"></i> System Design</a>
-        <a href="demographics.html"><i class="fa fa-fw fa-group"></i> Participants</a>
-        <a class="active" href="sounds.html"><i class="fa fa-fw fa-headphones"></i> Sounds</a>
-        <a href="data.html"><i class="fa fa-fw fa-file"></i> Data Files</a>
-        <a href="analysis.html"><i class="fa fa-fw fa-bar-chart"></i> Data Analysis</a>
-        <a href="template.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
-    </div>
+    <div class="navbar" id="injectNav"></div>
 
-    <h1>Sounds used in task</h1>
+    <header class="w3-container w3-indigo w3-margin w3-center">
+        <h1>Mixing Task Sounds</h1>
+    </header>
 
     <div class="container">
         <p>Sound files used in task, mix is a composite of all individual sound objects. All are stereo MP3s from original WAVs</p>
@@ -89,56 +59,47 @@
 
             <div class="list-group" id="playlist">
                 <a href="assets/audio/mix.mp3" class="list-group-item">
-                    <i class="fa fa-fw fa-play"></i>
-                    Full Mix
-                    <span class="badge">0:34</span>
+                    <i class="fa fa-fw fa-play"></i> Full Mix
+                    <span class="badge badge-info">0:34</span>
                 </a>
 
                 <a href="assets/audio/TonalSong 1 Glass.mp3" class="list-group-item">
-                    <i class="fa fa-fw fa-play"></i>
-                    1 Glass
-                    <span class="badge">0:34</span>
+                    <i class="fa fa-fw fa-play"></i> 1 Glass
+                    <span class="badge badge-info">0:34</span>
                 </a>
 
                 <a href="assets/audio/TonalSong 2 Gong.mp3" class="list-group-item">
-                    <i class="fa fa-fw fa-play"></i>
-                    2 Gong
+                    <i class="fa fa-fw fa-play"></i> 2 Gong
                     <span class="badge badge-info">0:34</span>
                 </a>
 
                 <a href="assets/audio/TonalSong 3 Insect.mp3" class="list-group-item">
-                    <i class="fa fa-fw fa-play"></i>
-                    3 Insect
+                    <i class="fa fa-fw fa-play"></i> 3 Insect
                     <span class="badge badge-info">0:34</span>
                 </a>
 
                 <a href="assets/audio/TonalSong 4 Alien Engine.mp3" class="list-group-item">
-                    <i class="fa fa-fw fa-play"></i>
-                    4 Alien Engine
+                    <i class="fa fa-fw fa-play"></i> 4 Alien Engine
                     <span class="badge badge-info">0:34</span>
                 </a>
 
                 <a href="assets/audio/TonalSong 5 Sandman.mp3" class="list-group-item">
-                    <i class="fa fa-fw fa-play"></i>
-                    5 Sandman
+                    <i class="fa fa-fw fa-play"></i> 5 Sandman
                     <span class="badge badge-info">0:34</span>
                 </a>
 
                 <a href="assets/audio/TonalSong 6 Drifting Fly.mp3" class="list-group-item">
-                    <i class="fa fa-fw fa-play"></i>
-                    6 Drifting Fly
+                    <i class="fa fa-fw fa-play"></i> 6 Drifting Fly
                     <span class="badge badge-info">0:34</span>
                 </a>
 
                 <a href="assets/audio/TonalSong 7 Voice Fragment.mp3" class="list-group-item">
-                    <i class="fa fa-fw fa-play"></i>
-                    7 Voice Fragment
+                    <i class="fa fa-fw fa-play"></i> 7 Voice Fragment
                     <span class="badge badge-info">0:34</span>
                 </a>
 
                 <a href="assets/audio/TonalSong 8 String.mp3" class="list-group-item">
-                    <i class="fa fa-fw fa-play"></i>
-                    8 String
+                    <i class="fa fa-fw fa-play"></i> 8 String
                     <span class="badge badge-info">0:34</span>
                 </a>
             </div>
