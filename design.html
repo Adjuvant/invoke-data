@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="jquery.js"></script>
+
     <script>
         $(function() {
             $("#injectNav").load("nav.html");
@@ -21,17 +21,27 @@
     <div class="navbar" id="injectNav"></div>
 
 
-    <div class="w3-col" style="width:20%">
-        <header class="w3-container w3-indigo w3-margin w3-center">
+    <div class="w3-sidebar w3-bar-block main" style="width:20%;overflow: auto;box-sizing: border-box;">
+        <header class="w3-container w3-dark-gray w3-margin w3-center">
             <h1>System Design</h1>
         </header>
+        <div class="w3-margin main">
+            <ul class="w3-ul w3-hoverable">
+                <li><a href="#vd">Voice Drawing</a></li>
+                <li><a href="#interaction">Object Interaction</a></li>
+                <li><a href="#menus">Menus</a></li>
+                <li><a href="#avatars">Embodiment</a></li>
+                <li><a href="#others">Other Features</a></li>
+            </ul>
+        </div>
     </div>
-    <div class="w3-col" style="width:60%">
+    <div class="main" style="margin-left:25%;width:60%">
         <article class="w3-container w3-margin">
 
             <p>Invoke offers a new way of working with spatial audio. As a spatial audio production tool, it explores different ways to embody audio workflow. The main feature of the app is a voice-based drawing tool that is used to make trajectories for
                 spatial audio objects.</p>
-            <h2>Voice Drawing</h2>
+            <img class="w3-image" src="assets/images/system overview jumble.png" />
+            <h2 id="vd">Voice Drawing</h2>
             <div class="w3-container">
                 <p>The interaction dynamic for drawing trajectories is a new way to work with spatial audio. Combining input from the voice and hand provides a continuous space-time method of composition. Voice Drawing allows detailed production of trajectories
                     to spatially and temporally mix tracks. For a user, you position a "pen" in virtual space, pull the controller trigger, make a sound with your voice, and build shapes in space. After creating a Voice Sketch, the line data transforms
@@ -73,7 +83,7 @@
                 </div>
             </div>
 
-            <h2>Object Interaction</h2>
+            <h2 id="interaction">Object Interaction</h2>
 
             <div class="w3-half w3-container">
                 <div class="w3-card">
@@ -104,7 +114,7 @@
             </div>
 
 
-            <h2>Menus</h2>
+            <h2 id="menus">Menus</h2>
             <div class="w3-container">
                 <p>While it would be possible to put all functionality "in-the-world", it was decided to use a set of Menus to manage the various options and abstractions. There are three main menu types:</p>
                 <ul>
@@ -127,7 +137,7 @@
                 <p>This system is built on top of some great work by <a href="http://aestheticinteractive.com/" target="_blank" rel="noopener">Aesthetic Interactive's</a> <a href="https://github.com/aestheticinteractive/Hover-UI-Kit" target="_blank" rel="noopener">Hover UI Kit</a>.</p>
             </div>
 
-            <h2>Embodiment</h2>
+            <h2 id="avatars">Embodiment</h2>
             <div class="w3-container">
                 <p>As a shared VR experience, the mapping of your body to the virtual space is an important feature. Using an Inverse Kinematics system a VR puppet maps to your movements. This system uses the HMD, controllers and a tracking puck attached
                     to your waist.</p>
@@ -140,7 +150,7 @@
             </div>
 
 
-            <h2>Assorted Features</h2>
+            <h2 id="others">Assorted Features</h2>
             <h3>Transparency</h3>
             <div class="w3-container">
                 <p>The picture highlights that the level of opacity on an object has meaning. For instance, when an audio source is muted, the object has a see-through quality. Also to manage the complexity of the space, the trajectory lines can be made
