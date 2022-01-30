@@ -28,7 +28,33 @@
     </div>
     <div class="w3-col main" style="width:60%">
         <article class="w3-container w3-margin">
-            <p>Currently anonymous.</p>
+            <h2>Forms and Surveys</h2>
+            <p>Following documents were used in task, for anonymisation purposes, the ethical pro-forma is in a redacted format.</p>
+            <ul>
+                <li>Consent Pro-Forma <a href="assets/forms/redacted-consent.pdf" download=""><i class="fa fa-fw fa-download"></i></a></li>
+                <li>Safety Briefing <a href="assets/forms/SafetyBriefing.pdf" download=""><i class="fa fa-fw fa-download"></i></a></li>
+                <li>End of Task Survey <a href="assets/forms/invoke-survey.pdf" download=""><i class="fa fa-fw fa-download"></i></a></li>
+            </ul>
+            <h2>Technical Data Collection Notes</h2>
+            <p>
+                Speech audio was recorded at a sampling rate of 48 kHz, in stereo 16 bits PCM WAV files, with each user panned hard left or hard right. Also, the audio output of each VR app was recorded for layering in analysis files. Video data included two camera perspectives
+                in each room (front and back), screen capture for each users' HMD view, and the server overview that displays the VE with both avatars. Video recordings were made at 50 frames per second, 1920 x 1080 pixels. The Lab Streaming Layer (LSL)
+                is a system for the unified collection of time-series data in research experiments that handles networking and time-synchronization of data collection [<a href="#1">1</a>]. The LSL application suite was used to collect
+                log data from the HMD, controllers, and tracker Transforms. Additionally, custom interface events were collected in the VR app and streamed to the LSL data recorder. Data from the VR headset and controllers were collected at 200 Hz. The
+                LSL data collection architecture can be seen below.
+
+            </p>
+
+            <div class="w3-center">
+                <img src="/assets/images/invokeDataStreams.jpg" width="461" height="372" alt="LSL data collection architecture">
+            </div>
+            <p>As different audio signals are used for voice drawing and VOIP, the image below shows how voice signals were captured and fed into each VR PC for the purposes of voice drawing.</p>
+            <div class="w3-center">
+                <img src="/assets/images/audioRouting.jpg" alt="Audio input routing">
+            </div>
+            <h3>References</h3>
+
+            <p id="1">[1] Christian Kothe, Chadwick Boulay, and Tristan Stenner. Lab streaming layer (LSL). San Diego, USA, 2019. url: <a href="https://github.com/sccn/labstreaminglayer">https://github.com/sccn/labstreaminglayer</a>.</p>
         </article>
     </div>
     <div class="w3-col main" style="width:20%">
