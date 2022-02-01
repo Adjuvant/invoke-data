@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Open Questions</title>
+    <!-- Method to inject html, used for nav bar -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script>
+        $(function() {
+            $("#injectNav").load("nav.html");
+        });
+    </script>
+    <link rel="stylesheet" href="nav-style.css">
+</head>
+
+<body>
+    <div class="navbar" id="injectNav"></div>
+
+    <div class="w3-col main" style="width:20%">
+        <header class="w3-container w3-dark-gray w3-margin w3-center">
+            <h1>Open Questions</h1>
+        </header>
+        <div class="w3-margin main">
+            <ul class="w3-ul w3-hoverable">
+                <li><a href="#open-question-items">Open Question Items</a></li>
+                <li><a href="#factor-questions">Factor Questions</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="w3-col main" style="width:70%">
+        <article class="w3-container w3-margin">
+            <h5 id="open-question-items">Open Question Items</h5>
+            <ol>
+                <li>
+                    <p><em>Interface Elements</em>: Do you have any further comments on your experience of interacting with interface elements?</p>
+                </li>
+                <li>
+                    <p><em>Making Music</em>: How did you feel about making spatial music in this application, with the content just used?</p>
+                </li>
+                <li>
+                    <p><em>Task Collaboration</em>: How did you feel about collaborating to accomplish the task?</p>
+                </li>
+                <li>
+                    <p><em>Input Method</em>: How did you feel about the input method (voice and controller) for drawing trajectories?</p>
+                </li>
+                <li>
+                    <p><em>Interface Design</em>: How did you feel about interface management?
+                    </p>
+                </li>
+                <li>
+                    <p><em>Music Process</em>: To what extent do you imagine using this sort of device in your audio production process?</p>
+                </li>
+                <li>
+                    <p><em>Improvements</em>: How would you improve this instrument/interface for working with this sort of content?</p>
+                </li>
+            </ol>
+            <h5 id="factor-questions">Factor Questions</h5>
+            <dl>
+                <dt>Group Effectiveness</dt>
+                <dd>
+                    <p><em>What is your impression of how effective the group was in the
+task?</em></p>
+                </dd>
+                <dt>Collaboration</dt>
+                <dd>
+                    <p><em>What is your perception of the collaboration?</em></p>
+                </dd>
+                <dt>Satisfaction</dt>
+                <dd>
+                    <p><em>What did you enjoy about the experience of making music?
+Likewise, what didn’t you enjoy?</em></p>
+                </dd>
+                <dt>Exploration</dt>
+                <dd>
+                    <p><em>How did you share a level of understanding to be able to explore
+musical ideas together?</em></p>
+                </dd>
+                <dt>Collective Reflection</dt>
+                <dd>
+                    <p><em>How do you feel about the process of working together?</em></p>
+                </dd>
+                <dt>Flow</dt>
+                <dd>
+                    <p><em>How engaged in the music making process where you?</em></p>
+                </dd>
+                <dt>Usability</dt>
+                <dd>
+                    <p><em>How well did the system perform?</em></p>
+                </dd>
+                <dt>Sonic Interaction</dt>
+                <dd>
+                    <p><em>How well did the system work as a musical device?</em></p>
+                </dd>
+                <dt>Social Presence</dt>
+                <dd>
+                    <p><em>How well did the system work as a mediation device of human
+interaction?</em></p>
+                </dd>
+            </dl>
+        </article>
+    </div>
+
+</body>
+
+</html>

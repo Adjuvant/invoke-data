@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Invoke Survey Results</title>
+    <!-- Method to inject html, used for nav bar -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script>
+        $(function() {
+            $("#injectNav").load("nav.html");
+        });
+    </script>
+    <link rel="stylesheet" href="nav-style.css">
+    <!-- Accordian Stuff -->
+    <style>
+        .accordion {
+            background-color: #eee;
+            color: #444;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            transition: 0.4s;
+        }
+        
+        .active,
+        .accordion:hover {
+            background-color: #ccc;
+        }
+        
+        .accordion:after {
+            content: '\002B';
+            color: #777;
+            font-weight: bold;
+            float: right;
+            margin-left: 5px;
+        }
+        
+        .active:after {
+            content: "\2212";
+        }
+        
+        .panel {
+            padding: 0 18px;
+            background-color: white;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="navbar" id="injectNav"></div>
+
+    <div class="w3-col main" style="width:20%">
+        <header class="w3-container w3-dark-gray w3-margin w3-center">
+            <h1>Survey Results</h1>
+        </header>
+        <div class="w3-margin main">
+            <ul class="w3-ul w3-hoverable">
+                <li><a href="#app:measures:csi">Creativity Support Index</a></li>
+                <li><a href="#app:measures:ad">AttrakDiff</a></li>
+                <li><a href="#collaborative-sonic-interaction-questionnaire-likert-responses">Collaborative Sonic Interaction Questionnaire</a></li>
+                <li><a href="#usability">System Usability Scale</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="w3-col main" style="width:70%">
+
+        <article class="w3-container w3-margin">
+            <h3 id="app:measures:csi">Creativity Support Index (CSI)</h3>
+            <button class="accordion">CSI Items and Procedure</button>
+            <div class="panel">
+                <h5>CSI Items and Process</h5>
+                <p>There are 6 orthogonal factors (<em>exploration, expressiveness,
+    enjoyment, immersion, collaboration, results worth effort (RWE)</em>) with 2 questions each (total of 12 questions). When evaluating more than one system, questions are repeated for each system:</p>
+                <ol>
+                    <li>
+                        <p>I was satisfied with what I got out of the system or tool. (RWE)
+                        </p>
+                    </li>
+                    <li>
+                        <p>It was easy for me to explore many different ideas, options, designs, or outcomes, using this system or tool. (Exploration)</p>
+                    </li>
+                    <li>
+                        <p>The system or tool allowed other people to work with me easily (mark 0 if this question is not relevant for the task). (Collaboration)
+                        </p>
+                    </li>
+                    <li>
+                        <p>I would be happy to use this system or tool on a regular basis. (Enjoyment)
+                        </p>
+                    </li>
+                    <li>
+                        <p>I was able to be very expressive and creative while doing the activity inside this system or tool. (Expressiveness)</p>
+                    </li>
+                    <li>
+                        <p>My attention was fully tuned to the activity, and I forgot about the system or tool that I was using. (Immersion)</p>
+                    </li>
+                    <li>
+                        <p>I enjoyed using this system or tool. (Enjoyment)</p>
+                    </li>
+                    <li>
+                        <p>The system or tool was helpful in allowing me to track different ideas, outcomes, or possibilities. (Exploration)</p>
+                    </li>
+                    <li>
+                        <p>What I was able to produce was worth the effort I had to exert to produce it. (RWE)</p>
+                    </li>
+                    <li>
+                        <p>The system or tool allowed me to be very expressive. (Expressiveness)
+                        </p>
+                    </li>
+                    <li>
+                        <p>It was really easy to share ideas and designs with other people inside this system or tool (mark 0 if this question is not relevant for the task). (Collaboration)</p>
+                    </li>
+                    <li>
+                        <p>I became so absorbed in the activity that I forgot about the system or tool that I was using. (Immersion)</p>
+                    </li>
+                </ol>
+                <p>There are also 15 pairwise factor questions, which is used to rank the 6 factors. When evaluating more than one system, this set of questions is only asked once:</p>
+                <ol>
+                    <li>
+                        <p>When doing this task, it’s most important that I’m able to...</p>
+                        <ol>
+                            <li>
+                                <p>Explore many different ideas, outcomes, or possibilities. (Exploration)
+                                </p>
+                            </li>
+                            <li>
+                                <p>Work with other people. (Collaboration)</p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <p>When doing this task, it’s most important that I’m able to...</p>
+                        <ol>
+                            <li>
+                                <p>Be creative and expressive. (Expressivity)</p>
+                            </li>
+                            <li>
+                                <p>Produce results that are worth the effort I put in. (RWE)
+                                </p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <p>When doing this task, it’s most important that I’m able to...</p>
+                        <ol>
+                            <li>
+                                <p>Enjoy using the system or tool. (Enjoyment)</p>
+                            </li>
+                            <li>
+                                <p>Become immersed in the activity. (Immersion)</p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <p>When doing this task, it’s most important that I’m able to...</p>
+                        <ol>
+                            <li>
+                                <p>Become immersed in the activity. (Immersion)</p>
+                            </li>
+                            <li>
+                                <p>Produce results that are worth the effort I put in. (RWE)
+                                </p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <p>When doing this task, it’s most important that I’m able to...</p>
+                        <ol>
+                            <li>
+                                <p>Work with other people. (Collaboration).</p>
+                            </li>
+                            <li>
+                                <p>Enjoy using the system or tool. (Enjoyment)</p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <p>When doing this task, it’s most important that I’m able to...</p>
+                        <ol>
+                            <li>
+                                <p>Produce results that are worth the effort I put in. (RWE)
+                                </p>
+                            </li>
+                            <li>
+                                <p>Explore many different ideas, outcomes, or possibilities. (Exploration)
+                                </p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <p>When doing this task, it’s most important that I’m able to...</p>
+                        <ol>
+                            <li>
+                                <p>Be creative and expressive. (Expressivity)</p>
+                            </li>
+                            <li>
+                                <p>Become immersed in the activity. (Immersion)</p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <p>When doing this task, it’s most important that I’m able to...</p>
+                        <ol>
+                            <li>
+                                <p>Work with other people. (Collaboration)</p>
+                            </li>
+                            <li>
+                                <p>Produce results that are worth the effort I put in. (RWE)
+                                </p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <p>When doing this task, it’s most important that I’m able to...</p>
+                        <ol>
+                            <li>
+                                <p>Be creative and expressive. (expressivity)</p>
+                            </li>
+                            <li>
+                                <p>Enjoy using the system or tool. (enjoyment)</p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <p>When doing this task, it’s most important that I’m able to...</p>
+                        <ol>
+                            <li>
+                                <p>Explore many different ideas, outcomes, or possibilities. (Exploration)
+                                </p>
+                            </li>
+                            <li>
+                                <p>Become immersed in the activity. (Immersion)</p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <p>When doing this task, it’s most important that I’m able to...</p>
+                        <ol>
+                            <li>
+                                <p>Work with other people. (Collaboration)</p>
+                            </li>
+                            <li>
+                                <p>Be creative and expressive. (Expressivity)</p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <p>When doing this task, it’s most important that I’m able to...</p>
+                        <ol>
+                            <li>
+                                <p>Produce results that are worth the effort I put in. (RWE)
+                                </p>
+                            </li>
+                            <li>
+                                <p>Enjoy using the system or tool. (Enjoyment)</p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <p>When doing this task, it’s most important that I’m able to...</p>
+                        <ol>
+                            <li>
+                                <p>Explore many different ideas, outcomes, or possibilities. (Exploration)
+                                </p>
+                            </li>
+                            <li>
+                                <p>Be creative and expressive. (Expressivity)</p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <p>When doing this task, it’s most important that I’m able to...</p>
+                        <ol>
+                            <li>
+                                <p>Work with other people. (Collaboration)</p>
+                            </li>
+                            <li>
+                                <p>Become immersed in the activity. (Immersion)</p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <p>When doing this task, it’s most important that I’m able to...</p>
+                        <ol>
+                            <li>
+                                <p>Explore many different ideas, outcomes, or possibilities. (Exploration)
+                                </p>
+                            </li>
+                            <li>
+                                <p>Enjoy using the system or tool. (Enjoyment)</p>
+                            </li>
+                        </ol>
+                    </li>
+                </ol>
+                <p>The answers are formatted using a rating scale (Likert scale) that range from 0 to 10 (from Highly Disagree to Highly Agree).</p>
+                <p>For each participant/system, you end up with a CSI index (0-100) that indicates the level of creativity support afforded by the system.</p>
+                <h5 id="csi-calculation">CSI Calculation</h5>
+                <p>An average is calculated first between the two sets of questions of the first block, ending with 6 average values one for each factor. Then, each average factor is multiplied by the weighted result for each factor based in the pairwise
+                    comparisons. The overall summation is divided into 1.5.
+                </p>
+            </div>
+
+            <h5>Results</h5>
+            <p>Figure <a href="#fig:invoke:csisus" data-reference-type="ref" data-reference="fig:invoke:csisus">CSI1</a> indicates the overall results from the <span data-acronym-label="csi" data-acronym-form="singular+short">csi</span> and SUS measures,
+                showning that creativity was supported more than usability. There was a near significant correlation between <span data-acronym-label="csi" data-acronym-form="singular+short">csi</span> and SUS across participants (Pearson’s r(8) = 0.62,
+                p = 0.054). While both represent scores on a 0-100 scale, the two measures should not be considered orthogonal as an assessment of the interface. The specificity of the
+                <span data-acronym-label="csi" data-acronym-form="singular+short">csi</span> reflects weighted perceptions based on its factor structure, rather than the broader framing of the SUS. Addressing the overall average (unweighted) responses
+                from users (see Figure <a href="#fig:invoke:findings:survey:csi:wafs" data-reference-type="ref" data-reference="fig:invoke:findings:survey:csi:wafs">[CSI2]</a>), the two factors with the highest averages were Collaboration (<span class="math inline">$\overline{m}=7.83,\ \sigma=1.68)$</span>)
+                and Enjoyment (<span class="math inline">$\overline{m}=8.21,\
+                \sigma=1.88$</span>). In particular, the high average score for Enjoyment does not contribute towards the final <span data-acronym-label="csi" data-acronym-form="singular+short">csi</span> rating for many users, as its weighted value tends
+                towards the mid-lower range. Observing the differences across users in Figure <a href="#fig:invoke:findings:survey:csi:wafs" data-reference-type="ref" data-reference="fig:invoke:findings:survey:csi:wafs">[CSI2]</a>, Exploration and Expressiveness
+                are the only two factors to feature in all users WAFS responses. This result indicates individual variation in user perception of their needs when working with sound and music, but also the importance of being able to work on the content
+                at hand effectively; exploring ideas with suitable levels of sonic detail and immediacy of control. These results are coherent with feedback in the
+                <span data-acronym-label="ta" data-acronym-form="singular+short">Thematic Analysis</span>, where users discussed exploration, immersion, engagement, tool transparency and expressiveness.
+            </p>
+            <figure>
+                <img src="assets/images/surveys/csi_sus_boxp.png" id="fig:invoke:csisus" alt="Creativity Support Index (CSI) and System Usability Scale (SUS) results for Invoke study." />
+                <figcaption aria-hidden="true">CSI1: Creativity Support Index (CSI) and System Usability Scale (SUS) results for Invoke study.</figcaption>
+            </figure>
+            <p> </p>
+
+            <figure>
+                <img src="assets/images/surveys/csiFactors.png" id="fig:invoke:findings:survey:csi:wafs" alt="Creativity Support Index (CSI) results for Invoke study." class="w3-image" />
+                <figcaption aria-hidden="true">CSI2: Creativity Support Index (CSI) results for Invoke study.</figcaption>
+            </figure>
+            <h3 id="app:measures:ad">AttrakDiff</h3>
+            <button class="accordion">AttrakDiff Semantic Differential Items and Instructions</button>
+            <div class="panel">
+                <h5 id="participant-instruction">Participant Instruction</h5>
+                <p>With the help of the word pairs please select the category you consider the most appropriate description for the system you just used.
+                </p>
+                <h5 id="questions-1">Questions</h5>
+                <p>All items were ordinal scales (1-7) with extremes labelled.</p>
+                <p><strong>Pragmatic Quality (PQ)</strong></p>
+                <div class="description">
+                    <p>technical/human</p>
+                    <p>complicated/simple</p>
+                    <p>impractical/practical</p>
+                    <p>cumbersome/straightforward</p>
+                    <p>unpredictable/predictable</p>
+                    <p>confusing/clearly structured</p>
+                    <p>unruly/manageable</p>
+                </div>
+                <p><strong>Hedonic Quality Identification (HQI)</strong></p>
+                <div class="description">
+                    <p>isolating/connective</p>
+                    <p>unprofessional/professional</p>
+                    <p>tacky/stylish</p>
+                    <p>cheap/premium</p>
+                    <p>alienating/integrating</p>
+                    <p>separates me from people/brings me closer to people</p>
+                    <p>unpresentable/presentable</p>
+                </div>
+                <p><strong>Hedonic Quality Stimulation (HQS)</strong></p>RWE
+                <div class="description">
+                    <p>conventional/inventive</p>
+                    <p>unimaginative/creative</p>
+                    <p>cautious/bold</p>
+                    <p>conservative/innovative</p>
+                    <p>dull/captivating</p>
+                    <p>undemanding/challenging</p>
+                    <p>ordinary/novel</p>
+                </div>
+                <p><strong>Attractiveness (ATT)</strong></p>
+                <div class="description">
+                    <p>unpleasant/pleasant</p>
+                    <p>ugly/attractive</p>
+                    <p>disagreeable/likeable</p>
+                    <p>rejecting/inviting</p>
+                    <p>bad/good</p>
+                    <p>repelling/appealing</p>
+                    <p>discouraging/motivating</p>
+                </div>
+            </div>
+
+            <h5>Results</h5>
+            <figure>
+                <img src="assets/images/surveys/bxPlt_AttrakDiff.png" id="fig:invoke:attrakdiff" alt="Aesthetic Interaction Semantic Differential responses, grouped by factor; compared to the questionnaire presentation, some items are inverted to align positive attributes with higher scores."
+                />
+                <figcaption aria-hidden="true">Aesthetic Interaction Semantic Differential responses, grouped by factor; compared to the questionnaire presentation, some items are inverted to align positive attributes with higher scores.</figcaption>
+            </figure>
+            <p>The factors of the AttrakDiff <span class="citation" data-cites="Hassenzahl2004"></span> semantic differentials of product quality use item scales of 1-7. Results indicate high factor values for
+                <em>Attractiveness</em> (<span class="math inline">$\overline{m}=5.48,\
+                \sigma=1.01$</span>), the <em>Hedonic Quality of Identity</em> (<span class="math inline">$\overline{m}=5.39,\ \sigma=1.18$</span>), and the
+                <em>Hedonic Quality of Stimulation</em> (<span class="math inline">$\overline{m}=5.91,\ \sigma=0.88$</span>), but only a moderately positive response to <em>Pragmatic Quality</em> (<span class="math inline">$\overline{m}=4.01,\ \sigma=1.49$</span>).
+                The results indicate a predominantly positive attitude towards the
+                <em>Invoke</em> system as a tool for spatial audio. In particular, the Hedonic Stimulation items show high mean scores for differentials such as ordinary/novel (<span class="math inline">$\overline{m}=6.25,\
+                \sigma=0.75$</span>), conservative/innovative (<span class="math inline">$\overline{m}=6.17,\ \sigma=0.58$</span>), and dull/captivating (<span class="math inline">$\overline{m}=5.83,\
+                \sigma=0.83$</span>). Echoing the usability concerns discussed throughout analyses, it can be seen that the system suffers from issues related to confusion, complexity, practicality, and general usability. Despite these usability issues,
+                the other more hedonic qualities indicate positive attitudes.</p>
+
+            <h3 id="collaborative-sonic-interaction-questionnaire-likert-responses">Collaborative Sonic Interaction Questionnaire Likert Responses</h3>
+            <p>In addition to other survey data, a series of Likert scales were designed to gather data on a variety of factors. These items and results were not included for brevity. Adapting usability questionnaires, mutual engagement questionnaires, and
+                group learning systems, the CoSIQ aims to gather broad feedback using open response and likert items, grouped into factors. </p>
+
+            <p>Unless specified otherwise, Likert ranges are: 0 N/A; 1 I do not agree at all; 2 Do not agree; 3 Neither agree or disagree; 4 Agree; 5 I fully agree. Each group contains a single open response item (<em>in
+                italics</em>), to promote subjective impressions, available in Appendix Section <a href="#appendix-invoke-survey" data-reference-type="ref" data-reference="appendix-invoke-survey">[appendix-invoke-survey]</a>.</p>
+            <h4 id="exploration-and-co-construction-of-meaning">Exploration and co-construction of meaning</h4>
+            <h5 id="questions">Questions</h5>
+            <ul>
+                <li>
+                    <p>CQ04_01 = We built on each others’ ideas;</p>
+                </li>
+                <li>
+                    <p>CQ04_02 = When things were unclear we worked together to resolve it;
+                    </p>
+                </li>
+                <li>
+                    <p>CQ04_03 = I could understand what my partner was trying to do musically;
+                    </p>
+                </li>
+                <li>
+                    <p>CQ04_04 = We learned from each other;</p>
+                </li>
+                <li>
+                    <p>CQ04_05 = We did not understand our actions towards spatialising music.
+                    </p>
+                </li>
+            </ul>
+            <h5 id="results">Results</h5>
+            <p>Likert responses in this category showed a broad trend that users’ felt that exploration was a positive feature, with most items mean being placed in an agreement with statements (CQ04_04).</p>
+            <figure>
+                <img src="assets/images/surveys/cqBxPlt_Exploration.png" id="fig:invoke:cq04" alt="Exploration Likert responses." />
+                <figcaption aria-hidden="true">Exploration Likert responses.
+                </figcaption>
+            </figure>
+            <h4 id="collaboration">Collaboration</h4>
+            <h5 id="questions-1">Questions</h5>
+            <ul>
+                <li>
+                    <p>CQ02_01 = The music made was a shared product;</p>
+                </li>
+                <li>
+                    <p>CQ02_03 = I felt part of a collaborative process;</p>
+                </li>
+                <li>
+                    <p>CQ02_04 = I worked mostly on my own;</p>
+                </li>
+                <li>
+                    <p>CQ02_05 = The other person ignored my contributions.</p>
+                </li>
+            </ul>
+            <h5 id="results-1">Results</h5>
+            <p>When looked at together all four items make a poor scale. But further reliability analysis indicated that two groups of Likert items had moderate to high agreement, grouping first two and last two Likert questions.
+            </p>
+            <figure>
+                <img src="assets/images/surveys/cqBxPlt_Collaboration.png" id="fig:invoke:cq02" alt="Collaboration Likert responses." />
+                <figcaption aria-hidden="true">Collaboration Likert responses.
+                </figcaption>
+            </figure>
+            <h4 id="satisfaction">Satisfaction</h4>
+            <h5 id="questions-2">Questions</h5>
+            <ul>
+                <li>
+                    <p>CQ03_01 = I like the music composition we made;</p>
+                </li>
+                <li>
+                    <p>CQ03_02 = I enjoyed making the music composition;</p>
+                </li>
+                <li>
+                    <p>CQ03_03 = I felt part of a creative process.</p>
+                </li>
+            </ul>
+            <h5 id="results-2">Results</h5>
+            <p>Likert responses showed a consensus that they enjoyed making the music composition (CQ03_02), and that it felt like a creative process (CQ03_03). Appreciation of the output of collaboration was ambiguous (CQ03_01).
+            </p>
+            <figure>
+                <img src="assets/images/surveys/cqBxPlt_Satisfaction.png" id="fig:invoke:cq03" alt="Satisfaction Likert responses." />
+                <figcaption aria-hidden="true">Satisfaction Likert responses.
+                </figcaption>
+            </figure>
+            <h4 id="flow">Flow</h4>
+            <h5 id="questions-3">Questions</h5>
+            <ul>
+                <li>
+                    <p>CQ06_01 = It was challenging;</p>
+                </li>
+                <li>
+                    <p>CQ06_02 = I felt distracted;</p>
+                </li>
+                <li>
+                    <p>CQ06_03 = I enjoyed myself;</p>
+                </li>
+                <li>
+                    <p>CQ06_04 = I lost track of time;</p>
+                </li>
+                <li>
+                    <p>CQ06_05 = It felt like playing a game;</p>
+                </li>
+                <li>
+                    <p>CQ06_06 = I was bored.</p>
+                </li>
+            </ul>
+            <h5 id="results-3">Results</h5>
+            <p>The open-question for flow was a poor question, as it elicited non-explanatory responses. In general, items indicated a capacity for the system to support aspects of flow, with most users’ agreeing or strongly agreeing that they: enjoyed the
+                situation (CQ06_03), lost track of time (CQ06_04), and were not bored (CQ06_06). An important trend was that most users did not feel distracted (CQ06_02), this could be said to detract from a state of flow <span class="citation" data-cites="Csikszentmihalyi1990"></span>.</p>
+            <figure>
+                <img src="assets/images/surveys/cqBxPlt_Flow.png" id="fig:invoke:cq06" alt="Flow likert responses." />
+                <figcaption aria-hidden="true">Flow likert responses.</figcaption>
+            </figure>
+            <h4 id="social-presence">Social Presence</h4>
+            <h5 id="questions-4">Questions</h5>
+            <p>Variable code questions relate to <span data-acronym-label="nmmsp" data-acronym-form="singular+short">nmmsp</span> items in Appendix Table
+                <a href="#app:measures:nmmsp" data-reference-type="ref" data-reference="app:measures:nmmsp">[app:measures:nmmsp]</a>.</p>
+            <ul>
+                <li>
+                    <p>Co-presence - Mutual awareness</p>
+                    <ul>
+                        <li>
+                            <p>CQ09_01 = NM02 01 I hardly noticed the other musician.</p>
+                        </li>
+                        <li>
+                            <p>CQ09_02 = NM02 02 The other musician didn’t notice me in the room.
+                            </p>
+                        </li>
+                        <li>
+                            <p>CQ09_03 = NM02 03 I was often aware of the other musician in the environment.
+                            </p>
+                        </li>
+                        <li>
+                            <p>CQ09_04 = NM02 04 The other musician was often aware of me in the room.
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p>Psychological Involvement - Mutual Understanding</p>
+                    <ul>
+                        <li>
+                            <p>CQ10_01 = NM05 01 My opinions were clear to my partner.</p>
+                        </li>
+                        <li>
+                            <p>CQ10_02 = NM05 02 The opinions of the my partner were clear to me.
+                            </p>
+                        </li>
+                        <li>
+                            <p>CQ10_03 = NM05 03 My thoughts were clear to my partner.</p>
+                        </li>
+                        <li>
+                            <p>CQ10_04 = NM05 04 My partner’s thoughts were clear to me.
+                            </p>
+                        </li>
+                        <li>
+                            <p>CQ10_05 = NM05 05 My partner understood what I meant.</p>
+                        </li>
+                        <li>
+                            <p>CQ10_06 = NM05 06 I understood what my partner meant.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p>Behavioural Engagement - Interdependence</p>
+                    <ul>
+                        <li>
+                            <p>CQ11_01 = NM06 01 My actions were dependent on the my partner’s actions.
+                            </p>
+                        </li>
+                        <li>
+                            <p>CQ11_02 = NM06 02 My partner’s actions were dependent on my actions.
+                            </p>
+                        </li>
+                        <li>
+                            <p>CQ11_03 = NM06 03 My behaviour was in direct response to my partner’s behaviour.</p>
+                        </li>
+                        <li>
+                            <p>CQ11_04 = NM06 04 The behaviour of my partner was I direct response to my behaviour.</p>
+                        </li>
+                        <li>
+                            <p>CQ11_05 = NM06 05 What my partner did affected what I did.
+                            </p>
+                        </li>
+                        <li>
+                            <p>CQ11_06 = NM06 06 What I did affected what my partner did.
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p>Behavioural Engagement - Mutual Assistance</p>
+                    <ul>
+                        <li>
+                            <p>CQ12_01 = NM07 01 My partner did not help me very much.</p>
+                        </li>
+                        <li>
+                            <p>CQ12_02 = NM07 02 I did not help my partner very much.</p>
+                        </li>
+                        <li>
+                            <p>CQ12_03 = NM07 03 My partner worked with me to complete the task.
+                            </p>
+                        </li>
+                        <li>
+                            <p>CQ12_04 = NM07 04 I worked with my partner to complete the task.
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p>Behavioural Engagement - Dependent action</p>
+                    <ul>
+                        <li>
+                            <p>CQ13_01 = NM08 01 My partner could not act without me.</p>
+                        </li>
+                        <li>
+                            <p>CQ13_02 = NM08 02 I could not act without my partner.</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <h5 id="results-4">Results</h5>
+            <p>Within the Likert responses to social presence items, based on factors, the following trends were observed:</p>
+            <ul>
+                <li>
+                    <p>Co-presence: Mutual awareness - high averages with small ranges, indicating good intersubjective awareness when using the system.
+                    </p>
+                </li>
+                <li>
+                    <p>Psychological Involvement: Mutual Understanding - high averages with small ranges, indicating good awareness and comprehension of each others opinions.</p>
+                </li>
+                <li>
+                    <p>Behavioural Engagement: Interdependence - broad ranges and moderate averages, indicating ambiguous perception of action interdependence when using the system.</p>
+                </li>
+                <li>
+                    <p>Behavioural Engagement: Mutual Assistance - broad ranges and moderate to high averages, indicating varied relationships to assistance across users.</p>
+                </li>
+                <li>
+                    <p>Behavioural Engagement: Dependent action - low averages with small ranges, indicating a sense of independence when doing the task.
+                    </p>
+                </li>
+            </ul>
+            <figure>
+                <img src="assets/images/surveys/cqBxPlt_SocialPresence.png" id="fig:invoke:cq09" alt="Social Presence Likert responses." />
+                <figcaption aria-hidden="true">Social Presence Likert responses.
+                </figcaption>
+            </figure>
+            <h4 id="sonic-interaction">Sonic Interaction</h4>
+            <h5 id="questions-5">Questions</h5>
+            <ul>
+                <li>
+                    <p>CQ08_01 = I could explore sound using body gestures;</p>
+                </li>
+                <li>
+                    <p>CQ08_02 = I did not feel in control of the sound;</p>
+                </li>
+                <li>
+                    <p>CQ08_03 = I was connected to the sound changes through my actions;
+                    </p>
+                </li>
+                <li>
+                    <p>CQ08_04 = I could relate actions to specific sonic effects;
+                    </p>
+                </li>
+                <li>
+                    <p>CQ08_05 = I could plan sonic events using the system;</p>
+                </li>
+                <li>
+                    <p>CQ08_06 = I was able to make the changes I wanted to the composition;
+                    </p>
+                </li>
+                <li>
+                    <p>CQ08_07 = I was really engaged in the music making process.
+                    </p>
+                </li>
+            </ul>
+            <h5 id="results-5">Results</h5>
+            <p>Three items within the likert responses showed positive agreement (CQ08_02, CQ08_03, CQ08_04, CQ08_07), suggesting that users’ perceived a level of understanding in sound action and engagement in process. More ambiguous responses were observed
+                for the ability to plan and control sound actions with a level of detail (CQ08_05, CQ08_06). Also the level of embodiment of gesture and sound had ambiguous results (CQ08_01).</p>
+            <figure>
+                <img src="assets/images/surveys/cqBxPlt_SonicInteraction.png" id="fig:invoke:cq08" alt="Sonic Interaction Likert responses." />
+                <figcaption aria-hidden="true">Sonic Interaction Likert responses.
+                </figcaption>
+            </figure>
+            <h3 id="usability">System Usability Scale (SUS)</h3>
+            <h5 id="question">Questions</h5>
+            <p>The answers are formatted using a rating scale (Likert scale) of five levels (Strongly disagree, Disagree, Neutral, Agree, Strongly agree) that range from 1 to 5.</p>
+            <ul>
+                <li>
+                    <p>CQ07_01 = I think that I would like to use this system frequently;
+                    </p>
+                </li>
+                <li>
+                    <p>CQ07_02 = I found the system unnecessarily complex;</p>
+                </li>
+                <li>
+                    <p>CQ07_03 = I thought the system was easy to use;</p>
+                </li>
+                <li>
+                    <p>CQ07_04 = I think that I would need the support of a technical person to be able to use this system;</p>
+                </li>
+                <li>
+                    <p>CQ07_05 = I found the various functions in this system were well integrated;
+                    </p>
+                </li>
+                <li>
+                    <p>CQ07_06 = I thought there was too much inconsistency in this system;
+                    </p>
+                </li>
+                <li>
+                    <p>CQ07_07 = I would imagine that most people would learn to use this system very quickly;</p>
+                </li>
+                <li>
+                    <p>CQ07_08 = I found the system very cumbersome to use;</p>
+                </li>
+                <li>
+                    <p>CQ07_09 = I felt very confident using the system;</p>
+                </li>
+                <li>
+                    <p>CQ07_10 = I needed to learn a lot of things before I could get going with this system.</p>
+                </li>
+            </ul>
+            <h5 id="sus-calculation">SUS Calculation</h5>
+            <p>To calculate the SUS score, first sum the score contributions from each item. Each item’s score contribution will range from 0 to 4. For items 1,3,5,7 and 9, the score contribution is the scale position minus 1. For items 2,4,6,8 and 10, the
+                contribution is 5 minus the scale position. Multiply the sum of the scores by 2.5 to obtain the overall value of SUS. SUS scores have a range of 0 to 100, where the higher the value, the higher level of usability.</p>
+            <h5 id="results-6">Results</h5>
+            <p>Given that a standardized test was used for usability (SUS), the results are summarised in the general system score, fig. <a href="#fig:invoke:csisus" data-reference-type="ref" data-reference="fig:invoke:csisus">[fig:invoke:csisus]</a>, individual
+                scores can be seen in <a href="#fig:invoke:cq07" data-reference-type="autoref" data-reference="fig:invoke:cq07">[fig:invoke:cq07]</a>.</p>
+            <figure>
+                <img src="assets/images/surveys/cqBxPlt_Usability.png" id="fig:invoke:cq07" alt="Usability likert responses." />
+                <figcaption aria-hidden="true">Usability likert responses.</figcaption>
+            </figure>
+        </article>
+    </div>
+    <!-- Accordian Script -->
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
