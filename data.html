@@ -2,34 +2,349 @@
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Data Files</title>
+
+<!-- METHOD A - Load video using table buttons -->
+<script src="https://vjs.zencdn.net/7.17.0/video.min.js"></script>
+<link href="https://vjs.zencdn.net/7.17.0/video-js.css" rel="stylesheet" />
+<script>
+    var player;
+
+    document.addEventListener('DOMContentLoaded', function() {
+        player = videojs('Reproductor');
+
+        let links = document.querySelectorAll('#playlist a');
+        let currentVideo = 0;
+        // Load a track by index and highlight the corresponding link
+        let setCurrentSong = function(index) {
+            links[currentVideo].classList.remove('active');
+            currentVideo = index;
+            links[currentVideo].classList.add('active');
+
+            player.src({
+                type: 'video/mp4',
+                src: links[currentVideo].href
+            });
+            player.ready(function() {
+                player.play();
+            });
+        };
+        // Load the track on click
+        Array.prototype.forEach.call(links, function(link, index) {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                setCurrentSong(index);
+            });
+        });
+
+        setCurrentSong(currentTrack);
+    });
+</script>
+<!-- METHOD B - Load playlist, change location of playing item on button press -->
+
+<!-- <script src="http://vjs.zencdn.net/4.3.0/video.js"></script> -->
+<!-- <link href="http://vjs.zencdn.net/4.3.0/video-js.css" rel="stylesheet"> -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-playLists/0.2.0/videojs-playlists.min.js"></script> -->
+<!-- <style type="text/css">
+    .vjs-default-skin {
+        color: #000000;
+    }
+    
+    .vjs-default-skin .vjs-play-progress,
+    .vjs-default-skin .vjs-volume-level {
+        background-color: red;
+    }
+    
+    .vjs-default-skin .vjs-control-bar,
+    .vjs-default-skin .vjs-big-play-button {
+        background: red;
+    }
+    
+    .vjs-default-skin .vjs-slider {
+        background: red;
+    }
+    
+    .vjs-default-skin .vjs-control-bar {
+        font-size: 103%;
+    }
+</style> -->
+<!-- <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var player = videojs('Reproductor');
+
+        player.playList([{
+            src: ['http://media.w3.org/2010/05/sintel/trailer.mp4'],
+            poster: 'http://media.w3.org/2010/05/sintel/poster.png'
+        }, {
+            src: ['http://media.w3.org/2010/05/bunny/trailer.mp4'],
+            poster: 'http://media.w3.org/2010/05/bunny/poster.png'
+        }, {
+            src: ['http://vjs.zencdn.net/v/oceans.mp4'],
+            poster: 'http://www.videojs.com/img/poster.jpg'
+        }, {
+            src: ['http://media.w3.org/2010/05/bunny/movie.mp4'],
+            poster: 'http://media.w3.org/2010/05/bunny/poster.png'
+        }, {
+            src: ['http://media.w3.org/2010/05/video/movie_300.mp4'],
+            poster: 'http://media.w3.org/2010/05/video/poster.png'
+        }]);
+
+        // Play through the playlist automatically.
+        player.playlist.autoadvance(0);
+    });
+</script> -->
+
 <!-- Method to inject html, used for nav bar -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<script src="jquery.js"></script>
 <script>
     $(function() {
         $("#injectNav").load("nav.html");
     });
 </script>
+<!-- Change text in other column area -->
+<script>
+    $(function() {
+
+
+        $("#vd1").click(function() {
+            $("#textarea").text('U1 and U2 draw voice drawings separately, at the same time with drone vocalisations.');
+            // $("#videoinfo").text('Session: 1; Filename: S01 Joint Solo Mixed Drone - 0-08-29,5.mp4; Timecode: 00:08:29-00:08:35');
+        });
+
+        $("#vd2").click(function() {
+            $("#textarea").text('U1 and U2 draw a voice drawing sound input mixes vocalisation and spoken words.');
+            // $("#videoinfo").text('Session: 1; Filename: S01 Solo Mixed Spoken - 0-19-54,7.mp4; Timecode: 00:19:54-00:20:00');
+        });
+
+        $("#vd3").click(function() {
+            $("#textarea").text('U5 and U6 draw a voice drawing where the sound input mixes transients vocalisation and spoken words.');
+            // $("#videoinfo").text('Session: 3; Filename: S03 Solo and Talk Transient Vocalised - 0-26-39,5.mp4; Timecode: 00:26:39-00:26:58');
+        });
+
+        $("#vd4").click(function() {
+            $("#textarea").text('U5 and U6 draw a voice drawing where the sound input is drone vocalisation.');
+            // $("#videoinfo").text('Session: 3; Filename: S03 Solo Drone Vocalised - 0-10-16,5.mp4; Timecode: 00:10:16-00:10:25');
+        });
+
+        $("#vd5").click(function() {
+            $("#textarea").text('U7 and U8 draw a voice drawing where the sound input is drone vocalisation from both users.');
+            // $("#videoinfo").text('Session: 4; Filename: S04 Drone Duo Vocalised - 0-07-22,6.mp4; Timecode: 00:07:22-00:07:43');
+        });
+
+        $("#vd6").click(function() {
+            $("#textarea").text('U11 draws a circular voice drawing where the sound input is drone vocalisation.');
+            // $("#videoinfo").text('Session: 6; Filename: S06 Circle - 0-02-49,6.mp4; Timecode: 00:02:49-00:03:22');
+        });
+
+        $("#ci1").click(function() {
+            $("#textarea").text('Session 1 joint visual references example. U1 and U2 use spatial referencing to support the planning of Voice Drawings.');
+            // $("#videoinfo").text('Session: 1; Filename: S01-Task-0-27-56.webm;');
+        });
+
+        $("#ci2").click(function() {
+            $("#textarea").text('Session 3 assistive interaction example.');
+            // $("#videoinfo").text('Session: 1; Filename: S01-Task-0-27-56.webm;');
+        });
+
+        $("#ci3").click(function() {
+            $("#textarea").text('Session 4 negotiated action example where users share evaluation of sonic qualities and plan action for the sound object.');
+            // $("#videoinfo").text('Session: 1; Filename: S01-Task-0-27-56.webm;');
+        });
+
+        $("#ci4").click(function() {
+            $("#textarea").text('Session 4 negotiated action example where users share evaluation of sonic qualities and plan action for the sound object including the using mixer elements. Users organise their spatial behaviour to assist the task at hand.');
+            // $("#videoinfo").text('Session: 1; Filename: S01-Task-0-27-56.webm;');
+        });
+
+        $("#ci5").click(function() {
+            $("#textarea").text('Session 4 users share evaluation of sonic qualities and plan action for the sound object discussing how to expand spatial effects.');
+            // $("#videoinfo").text('Session: 1; Filename: S01-Task-0-27-56.webm;');
+        });
+
+        $("#ci6").click(function() {
+            $("#textarea").text('Session 4 users plan and execute action for the sound object by appropriating the pointer object to mark out points in space to put a trajectory.');
+            // $("#videoinfo").text('Session: 1; Filename: S01-Task-0-27-56.webm;');
+        });
+
+        $("#ci7").click(function() {
+            $("#textarea").text('Session 5 try to isolate a sonic issue using the mixer.');
+            // $("#videoinfo").text('Session: 1; Filename: S01-Task-0-27-56.webm;');
+        });
+
+        $("#ci8").click(function() {
+            $("#textarea").text('Session 5 user describes how social policy might be an issue in a environment, then starts dancing for the other user.');
+            // $("#videoinfo").text('Session: 1; Filename: S01-Task-0-27-56.webm;');
+        });
+
+        $("#ci9").click(function() {
+            $("#textarea").text('Session 6 working together where user 2 makes a trajectory and user 1 places a sound object on it, they use status updates to keep each other aware.');
+            // $("#videoinfo").text('Session: 1; Filename: S01-Task-0-27-56.webm;');
+        });
+
+        $("#ci10").click(function() {
+            $("#textarea").text('Session 6 organise their mixer views into a side-by-side layout.');
+            // $("#videoinfo").text('Session: 1; Filename: S01-Task-0-27-56.webm;');
+        });
+    });
+</script>
 <link rel="stylesheet" href="nav-style.css">
+
+<style>
+    html,
+    body {
+        height: 100%;
+        overflow: hidden;
+        margin: 0;
+    }
+    
+    #content {
+        height: 100%;
+    }
+    
+    #menu {
+        width: 30%;
+        height: 100%;
+        overflow: auto;
+        box-sizing: border-box;
+        padding: 0.5em;
+    }
+    
+    #vidz {
+        height: 100%;
+        width: 40%;
+        overflow: auto;
+        box-sizing: border-box;
+        padding: 0.5em;
+    }
+    
+    #info {
+        height: 100%;
+        width: 30%;
+        overflow: auto;
+        box-sizing: border-box;
+        padding: 0.5em;
+    }
+</style>
 
 <body>
     <div class="navbar" id="injectNav"></div>
+    <div class="main" id="content">
+        <div id="menu" class="w3-col w3-margin" style="width:20%">
+            <header class="w3-container w3-dark-gray w3-center">
+                <h1>Data Files</h1>
+            </header>
+            <h3>Voice Drawing Videos</h3>
+            <ul class="w3-ul w3-border w3-hoverable" id="playlist">
+                <li>
+                    <a href="assets/video/VDs/S01 Joint solo Mixed Drone - 0-08-29,5.mp4" class="list-group-item" id="vd1">
+                        <i class="fa fa-fw fa-play"></i> S01 Joint Solo Mixed Drone
+                    </a>
+                </li>
+                <li>
+                    <a href="assets/video/VDs/S01 Solo Mixed Spoken - 0-19-54,7.mp4" class="list-group-item" id="vd2">
+                        <i class="fa fa-fw fa-play"></i> S01 Solo Mixed Spoken
+                    </a>
+                </li>
+                <li>
+                    <a href="assets/video/VDs/S03 Solo and Talk Transient Vocalised - 0-26-39,5.mp4" class="list-group-item" id="vd3">
+                        <i class="fa fa-fw fa-play"></i> S03 Solo and Talk Transient Vocalised
+                    </a>
+                </li>
+                <li>
+                    <a href="assets/video/VDs/S03 Solo Drone Vocalised - 0-10-16,5.mp4" class="list-group-item" id="vd4">
+                        <i class="fa fa-fw fa-play"></i> S03 Solo Drone Vocalised
+                    </a>
+                </li>
+                <li>
+                    <a href="assets/video/VDs/S04 Drone Duo Vocalised - 0-07-22,6.mp4" class="list-group-item" id="vd5">
+                        <i class="fa fa-fw fa-play"></i> S04 Drone Duo Vocalised
+                    </a>
+                </li>
+                <li>
+                    <a href="assets/video/VDs/S06 Circle - 0-02-49,6.mp4" class="list-group-item" id="vd6">
+                        <i class="fa fa-fw fa-play"></i> S06 Circle
+                    </a>
+                </li>
+            </ul>
+            <h3>Collaborative Interaction Videos</h3>
+
+            <ul class="w3-ul w3-border w3-hoverable" id="playlist">
+                <li>
+                    <a href="assets/video/CIs/S01-Task-0-27-56_1.webm" class="list-group-item" id="ci1">
+                        <i class="fa fa-fw fa-play"></i> S01 Joint Visual References
+                    </a>
+                </li>
+                <li>
+                    <a href="assets/video/CIs/S03-Task-0-22-36_1.webm" class="list-group-item" id="ci2">
+                        <i class="fa fa-fw fa-play"></i> S03 Assistive Interaction
+                    </a>
+                </li>
+                <li>
+                    <a href="assets/video/CIs/S04-Task-0-06-07_1.webm" class="list-group-item" id="ci3">
+                        <i class="fa fa-fw fa-play"></i> S04 Negotiated Action A
+                    </a>
+                </li>
+                <li>
+                    <a href="assets/video/CIs/S04-Task-0-12-17.webm" class="list-group-item" id="ci4">
+                        <i class="fa fa-fw fa-play"></i> S04 Negotiated Action B
+                    </a>
+                </li>
+                <li>
+                    <a href="assets/video/CIs/S04-Task-0-19-55_1.webm" class="list-group-item" id="ci5">
+                        <i class="fa fa-fw fa-play"></i> S04 Accentuating Spatial Effects
+                    </a>
+                </li>
+                <li>
+                    <a href="assets/video/CIs/S04-Task-0-23-12.webm" class="list-group-item" id="ci6">
+                        <i class="fa fa-fw fa-play"></i> S04 Pointer Reference
+                    </a>
+                </li>
+                <li>
+                    <a href="assets/video/CIs/S05-Task-0-15-33.webm" class="list-group-item" id="ci7">
+                        <i class="fa fa-fw fa-play"></i> S05 Mixer Discussion
+                    </a>
+                </li>
+                <li>
+                    <a href="assets/video/CIs/S05-Task-0-24-43.webm" class="list-group-item" id="ci8">
+                        <i class="fa fa-fw fa-play"></i> S05 Playful Social Interaction
+                    </a>
+                </li>
+                <li>
+                    <a href="assets/video/CIs/S06-0206.webm" class="list-group-item" id="ci9">
+                        <i class="fa fa-fw fa-play"></i> S06 Working Together
+                    </a>
+                </li>
+                <li>
+                    <a href="assets/video/CIs/S06-Task-0-15-22.webm" class="list-group-item" id="ci10">
+                        <i class="fa fa-fw fa-play"></i> S06 GUI Organisation
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+        <div id="vidz" class="w3-col" style="width:45%">
+            <article class="w3-container">
+                <div class="w3-centering">
+                    <video id="Reproductor" class="video-js vjs-default-skin vjs-fluid vjs-16-9" controls preload="auto" data-setup="{}">
+                <source src="http://media.w3.org/2010/05/sintel/trailer.mp4" type='video/mp4'>
+                <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+            </video>
+                </div>
 
 
-    <div class="w3-col" style="width:20%">
-        <header class="w3-container w3-indigo w3-margin w3-center">
-            <h1>Data Files</h1>
-        </header>
-    </div>
-    <div class="w3-col" style="width:60%">
-        <article class="w3-container w3-margin">
-            <p>Content</p>
-        </article>
-    </div>
-    <div class="w3-col" style="width:20%">
-        <p></p>
+            </article>
+            <div>
+                <p id="textarea">
+                    Test video, please select a video from the side bar
+                </p>
+            </div>
+        </div>
+        <div id="info" class="w3-col" style="width:30%">
+            <!-- <h3>Video Info</h3> -->
+            <p id="videoinfo">
+            </p>
+        </div>
     </div>
 
 </body>
